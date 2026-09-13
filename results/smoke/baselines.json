@@ -1,0 +1,68 @@
+{
+  "unigram": {
+    "val": {
+      "metric": "exact_chunk_nll_bpc",
+      "mean": 4.857006343319288,
+      "se": 0.23091578051946546,
+      "n": 8
+    },
+    "test": {
+      "metric": "exact_chunk_nll_bpc",
+      "mean": 4.688398151437486,
+      "se": 0.18200872904367385,
+      "n": 8
+    },
+    "samples": [
+      "\nrh hnnn,\nalsyrs lswnsrnr z aua ",
+      " hbunl t  wielb tCnfeae:a f't er",
+      "tsA   ido\nweae\n:Ch r euiir\n k   ",
+      " ,,est  hlrs\nAmlao ,ore\nnehaSi d"
+    ],
+    "generation": {
+      "distinct_1": 0.2109375,
+      "js_1": 0.10088530730641254,
+      "distinct_2": 0.8306451612903226,
+      "js_2": 0.6841232110432729,
+      "distinct_3": 0.975,
+      "js_3": 0.9693090834754123,
+      "repetition_4": 0.0,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 4,
+      "generated_characters": 128
+    }
+  },
+  "trigram": {
+    "val": {
+      "metric": "exact_chunk_nll_bpc",
+      "mean": 3.4733296540026704,
+      "se": 0.17042016760507311,
+      "n": 8
+    },
+    "test": {
+      "metric": "exact_chunk_nll_bpc",
+      "mean": 3.715716478954326,
+      "se": 0.1408502128511364,
+      "n": 8
+    },
+    "samples": [
+      "\nYoAYgive\nOnq�or strouren � HvI!",
+      " letizen FycRfL'vDibealYJ,VAt, t",
+      "to cabods\nyYHO Cit they st I baD",
+      " beittB:Wels\nFir,A;BkoS\nhat coVN"
+    ],
+    "generation": {
+      "distinct_1": 0.3515625,
+      "js_1": 0.12990827207513633,
+      "distinct_2": 0.9032258064516129,
+      "js_2": 0.6523440145415927,
+      "distinct_3": 0.9833333333333333,
+      "js_3": 0.8813019767317589,
+      "repetition_4": 0.0,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 4,
+      "generated_characters": 128
+    }
+  }
+}

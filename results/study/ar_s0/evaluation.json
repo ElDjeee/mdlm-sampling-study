@@ -1,0 +1,73 @@
+{
+  "name": "ar_s0",
+  "kind": "ar",
+  "schedule": "linear",
+  "seed": 0,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T11:57:16+0200",
+  "val": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.0481768883764744,
+    "se": 0.056729139235388804,
+    "n": 64
+  },
+  "test": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.0353687442839146,
+    "se": 0.05419165439808211,
+    "n": 64
+  },
+  "samples": [
+    "o se him anscide for it\nGod yet, what's vantured lown say?\n\nVOLUMNIA:\nO, sir, Cairenze.\n\nMENENIUS:\nSi! Then true good chard to\nT",
+    "en for's scanness, if she peedser?\n\nVIRGILIATHiSES:\nBy our venour I cack annot though did\nread we empens ace-pration. I what to ",
+    "hat sid the\nwas Confully ondy, are mark.\n\nCORIOLANUS:\nQUEN, soul; dive they thave would's of for\nThat the carefor honow coy droc",
+    "m your wing enemily.\nAnd to seem virty pern'd if there\nAnd lives to drume than timilissent.\n\nMENENIUS:\nHe bost anfore!\n\nGLOUCEST",
+    " for'd smoost rouse antured:\nFall, for seemfuls oof the ment son.\n\nMENENIUS:\nAs you wars senates do surne atcation,\nGretor's let",
+    "nt fellow'll; neat, heart, when her sitt\nThat I am name would they mern?\n\nCORIOLANUS:\nThou wome, lay tought the tcoubble they la",
+    "od honobe kneed\nThan is bhe mocke rewnck,'g but\nThat nogunes aft at for your juresty\nGods, ye\nThe midies ssouns howard by friver",
+    "emmed\nIs him.\n\nMENEN:stake is!\n\nFirslam, butory of they gods?\n\nCORIOLANUS:\nMy thou death all made.\n\nFirst Senator:\nI'll as now, ",
+    "\nCINIUS:\nWouldner ountriives are actous, consure that of caces\nWith is him.\nThis the reening sece.\n\nMENENIUS:\nI had heref, to co",
+    "y did\n'pespering of thy holy or singues as and can him.\n\nThird Murderer:\nAnd crieng to comesterzNatulage are sia nought\nWe have ",
+    "e again that's a conspers.\n\nASTINGave Reeks, lage Rives to graid the restor.\n\nCORIOLANUS:\nSo Theme.\n\nSICINIUS:\nCould:\nNo Punsore",
+    "inest we lie sconsul\nWe gove heave in heard disers; on hong. There's more,\nAnd would shown dreants of nought, I can undry,\nShow'",
+    "pition a- lafts\nWith Jone pive o' a ofrie, for hears mentle too CoriK chuse,\nsiF with us.\n\nGLOUCESTER:\nWey, deaks and good me ap",
+    "Set,\nAs marve not to malson.\n\nMHARCIDIUS:\nNo I make in of he another a sill.\n\nSecond Servingman:\nHe bear or sinsore agaid,.\n\nCOR",
+    "nd by tAnlows\nFor honnour. Your.\n\nBRALIA:\nI struiden wormals not vagain, yoursed and beack,\nThat word whast with die frie's coun",
+    ", can hanot to heaD here voolank he legfo hous\nA wratheus upp that your'e: in.\n\nSecond But!\n\nVORIRY:\nYou Reell, I canone, and me",
+    "cptitudius the they.\nSecond warre we trebuth look oickBy stady the tolf the reccted--\nThan all we too outher coresty,\nHear thoof",
+    "ch soubitus anties.\n\nGLOUCESTER:\nFor sill grand ary, so, that beevebuh.\nG you woof weld evil toughter nor name.\nConsen you to de",
+    "ather in Maures him. no the. Speak?\n\nGLOUCESTER:\nWell, peace have not it. Mery lie!\n\nCitizens: and, we pleople praise may,\nhave ",
+    "n.\n\nThe Senator:\nYet titus nare not a Grain themself.\n\nMENENIUS:\nNot he Raishef at\nEndinaty: I'll the the bark wark lubs thou ba",
+    "ment of!\nThey muth\nIble wawast you are wife theiZs, and\nAnd beach urst befainss how.\n\nCOMINIUS:\nYou would well, do is to gran's!",
+    "e. When be's as a you coys,\nTo with canite me dooth, in graike thing the pate of or done?\n\nGLOUCENUS:\nHe warmitude obler, he has",
+    " cannot high oveice\nOf plup toial to; for fear what's to reperace,\nThat them sir make you made good wer:\nBut art have is our you",
+    "rl breasure. Be engrats, I sortherein? what\nAShousted Cour AufiReds!\nAll:\nPeacest homed speake: I thus tonee'eFit-eitor,\nMarcius",
+    "diess to yet;\nheSiQxsteay ond, and your I am upon to boyy-telf ai we,\nTere as anrmely, which you.\n\nLIUS:\nMoung he cappeer, to se",
+    ", the give thou confinius.\n\nLADY ANNE:\nNal go, the roveson true.\n\nFirst Sertaing pletess, that heardish,'s baside. I'ld to\nwould",
+    " hobleeds form see of them.\nNow, fliend that them ame a ucont lear:\nShe rike yot shall as when Tribuned a where;\nFor your ill of",
+    "er in there, perved\nIt Lay see, seep I was and your leash conquition vih!\nAbed frieghtser we are\nmousedion, when him: will the t",
+    "; beases, as sales upon you\nThan from, and tradesty asidench'd it\nwin they country? What, tou berthrun my fliss; and to lossine ",
+    "ne a saigmer!\nW the Capitol\nThy have your prampsity, and dights haft?\n\nThiny Mesh bragting cantes maun lie did rescive\nAnd blead",
+    "e comman,\nCorn, be leapter not with said alt his prop,\nSo' the purpower is of my wrairs; and hand thee--Citizer.\n\nVIRGILIA:\nwhy,",
+    "CirUS:\nWhen!\n\nLearew'lraI hild, but, you'll the hou, are thou instem a gof\nWere blood not your capital your of abhies!\n\nThis At "
+  ],
+  "generation_protocol": {
+    "steps": 128,
+    "strategy": "cached_causal",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.014892578125,
+    "js_1": 0.007965192289852768,
+    "distinct_2": 0.1486220472440945,
+    "js_2": 0.09178733040739205,
+    "distinct_3": 0.45089285714285715,
+    "js_3": 0.3119537210047377,
+    "repetition_4": 0.01675000000000001,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  }
+}

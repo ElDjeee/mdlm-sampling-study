@@ -1,0 +1,9 @@
+{
+  "width": 32, "layers": 1, "heads": 4,
+  "length": 32, "batch_size": 4, "train_steps": 8,
+  "learning_rate": 0.001, "diffusion_steps": 8,
+  "train_chars": 10000, "seeds": [0],
+  "log_every": 4, "eval_windows": 8, "eval_repeats": 1,
+  "sample_count": 4, "timing_repeats": 2,
+  "benchmark_shapes": [[32,1]], "sampling_steps": [4,8]
+}

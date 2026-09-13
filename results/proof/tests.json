@@ -1,0 +1,196 @@
+{
+  "timestamp": "2026-09-13T12:27:14+0200",
+  "duration_seconds": 15.039698874985334,
+  "tests_run": 42,
+  "successful": true,
+  "outcomes": [
+    {
+      "test": "test_core.CoreTests.test_all_objectives_finite_gradients",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_all_observed_context_preserved",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_ar_sampling_valid_and_reproducible",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_bidirectional_uses_future",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_cache_matches_full_forward",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_cache_with_local_distance_prior",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_causal_has_no_future_leak",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_checkpoint_resume_exact",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_complete_noise",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_deterministic_batches",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_empty_mask_has_zero_loss",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_evaluation_windows_disjoint",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_exact_expected_uniform_nelbo",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_fixed_batch_overfit",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_invalid_configuration",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_loss_only_masked_valid",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_no_split_overlap_and_train_only_vocabulary",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_padding_keys_do_not_affect_valid_logits",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_sampler_invariants_all_strategies",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_sampler_seed_reproducible",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_sampling_greedy_and_top_k",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_schedule_endpoints_monotonicity",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_special_tokens_never_corrupted",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_statistical_mask_rate",
+      "status": "passed"
+    },
+    {
+      "test": "test_core.CoreTests.test_zero_noise",
+      "status": "passed"
+    },
+    {
+      "test": "test_elbo.ExactReferenceTests.test_context_dependent_nelbo_bounds_exact_nll",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_empirical_encoding",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_exact_target_entropy",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_independent_baseline",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_mode_collapse_detected",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_oracle_conditionals",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_oracle_matches_closed_form",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_rejects_invalid_probabilities",
+      "status": "passed"
+    },
+    {
+      "test": "test_exact_copy.ExactCopyTests.test_state_encoding",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_character_distinct_not_semantics",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_copy_detection",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_js_disjoint",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_js_identical",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_js_symmetric",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_ngram_learns_alternating_pattern",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_ngram_probabilities_normalized",
+      "status": "passed"
+    },
+    {
+      "test": "test_metrics.MetricTests.test_ngram_seed_and_range",
+      "status": "passed"
+    }
+  ],
+  "source_sha256": {
+    "nanodiff/__init__.py": "290eff4274a5d874bd0fa56bbae9fe066041aeb8c921b6632c2fee17d2ebec3d",
+    "nanodiff/bench_worker.py": "b4b91abb12b24c9fa4177ce1191ff436df7d6e8f4e58eca347dcf2cc4fd080c6",
+    "nanodiff/data.py": "d8ff77d89673791b39b2144aacb85cc772f048f83917d7f36d8cbb73a70fea53",
+    "nanodiff/diffusion.py": "c3eceee4dc56b12510d0e70236f2d92203c4f2914d4e22a1d8b63052bfb76d91",
+    "nanodiff/evaluation.py": "bf71f41d476a209256a0621ec16dbf1230c7f60611fa90c0131296629d13f9bd",
+    "nanodiff/exact_copy.py": "8a6a01d90cedbb0c7a51125a9db8a92976a0d934918f0ddffc35e4ba8e69e957",
+    "nanodiff/metrics.py": "161198c9e455f69e682bae1ff81597ae078193ebe95a739a4f0641ca76b485f1",
+    "nanodiff/model.py": "7bace0df1996bb2a3ebca62572c6343c02857939999fe0e13145fc89b165b587",
+    "nanodiff/proof_reporting.py": "3a00d60ecfb13be298b92b4bab996aba4305440973d7fbc7642fa385219b9572",
+    "nanodiff/reporting.py": "c022887c53c480177509385bed50f72bc8fab6e09e93126a821a1507dfd4b9b9",
+    "nanodiff/training.py": "cf60e7bf686a6f6390ee0118d2ba4359935cb06247952e74bee3c37d4e8cbce3",
+    "tests/test_core.py": "7b9aa41572e52b427bd5d6da5b4fc1be345a48806540de84d507bdfadb6c5f36",
+    "tests/test_elbo.py": "d0198c3dec3789e8d48d4737f54e308dedae6504291fce018ca3d9ec5108554d",
+    "tests/test_exact_copy.py": "472afad3a03c298c0e01b5c578bec25dc6bdff9dfe9c3bc85a31e56a3df316e6",
+    "tests/test_metrics.py": "54160530e5922b6819e1029097a4829aef179c6723b5d0f7cf6ec846d313018c"
+  },
+  "backend": "cpu",
+  "gpu_tested": false,
+  "gpu_note": "JAX Metal initialization aborts on this host; CPU tested. CUDA support is unverified."
+}

@@ -1,0 +1,1322 @@
+[
+  {
+    "kind": "ar",
+    "name": "ar_s0",
+    "steps": 64,
+    "strategy": "cached_causal",
+    "median_ms": 1.9095840107183903,
+    "p10_ms": 1.8946840078569949,
+    "p90_ms": 1.9643829960841686,
+    "tokens_per_second": 33515.152850448845,
+    "timings_ms": [
+      1.9910830014850944,
+      1.9095840107183903,
+      1.9243329879827797,
+      1.8997089937329292,
+      1.8913340172730386
+    ],
+    "compilation_seconds": 0.25026050000451505,
+    "peak_process_rss_mib": 240.84375,
+    "compiled_temp_bytes": 126336,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "ancestral",
+    "median_ms": 2.677457989193499,
+    "p10_ms": 2.6692170125897974,
+    "p90_ms": 2.8396670008078218,
+    "tokens_per_second": 23903.26954085207,
+    "timings_ms": [
+      2.9426669934764504,
+      2.672667003935203,
+      2.666917018359527,
+      2.677457989193499,
+      2.6851670118048787
+    ],
+    "compilation_seconds": 0.2637230829859618,
+    "peak_process_rss_mib": 238.75,
+    "compiled_temp_bytes": 410352,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "ancestral",
+    "median_ms": 5.368334008380771,
+    "p10_ms": 5.2998997969552875,
+    "p90_ms": 5.504099786048755,
+    "tokens_per_second": 11921.761928390903,
+    "timings_ms": [
+      5.582082987530157,
+      5.273582995869219,
+      5.33937499858439,
+      5.368334008380771,
+      5.387124983826652
+    ],
+    "compilation_seconds": 0.27522504099761136,
+    "peak_process_rss_mib": 240.21875,
+    "compiled_temp_bytes": 410352,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "ancestral",
+    "median_ms": 10.15424999059178,
+    "p10_ms": 9.911274816840887,
+    "p90_ms": 10.593424795661122,
+    "tokens_per_second": 6302.779630134963,
+    "timings_ms": [
+      10.787957988213748,
+      10.301625006832182,
+      10.15424999059178,
+      9.977000008802861,
+      9.867458022199571
+    ],
+    "compilation_seconds": 0.2675967910035979,
+    "peak_process_rss_mib": 242.328125,
+    "compiled_temp_bytes": 410352,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "ancestral",
+    "median_ms": 19.584958004998043,
+    "p10_ms": 18.97359980503097,
+    "p90_ms": 20.70386601262726,
+    "tokens_per_second": 3267.814002137116,
+    "timings_ms": [
+      21.34141602437012,
+      18.912833009380847,
+      19.06474999850616,
+      19.74754099501297,
+      19.584958004998043
+    ],
+    "compilation_seconds": 0.2658464999985881,
+    "peak_process_rss_mib": 239.734375,
+    "compiled_temp_bytes": 410416,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "ancestral",
+    "median_ms": 40.0308340031188,
+    "p10_ms": 39.01520001236349,
+    "p90_ms": 41.579533397452906,
+    "tokens_per_second": 1598.767589878686,
+    "timings_ms": [
+      42.063667002366856,
+      40.85333299008198,
+      39.39912500209175,
+      38.75925001921132,
+      40.0308340031188
+    ],
+    "compilation_seconds": 0.25637479199212976,
+    "peak_process_rss_mib": 242.78125,
+    "compiled_temp_bytes": 410544,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "confidence",
+    "median_ms": 2.941167011158541,
+    "p10_ms": 2.8146002208814025,
+    "p90_ms": 3.0372170032933354,
+    "tokens_per_second": 21760.069984869737,
+    "timings_ms": [
+      3.0881669954396784,
+      2.960792015073821,
+      2.941167011158541,
+      2.8081670170649886,
+      2.8242500266060233
+    ],
+    "compilation_seconds": 0.2556136670173146,
+    "peak_process_rss_mib": 241.765625,
+    "compiled_temp_bytes": 410416,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "confidence",
+    "median_ms": 5.544249986996874,
+    "p10_ms": 5.510966607835144,
+    "p90_ms": 5.656900000758469,
+    "tokens_per_second": 11543.491031266893,
+    "timings_ms": [
+      5.68050000583753,
+      5.530291993636638,
+      5.544249986996874,
+      5.621499993139878,
+      5.498083017300814
+    ],
+    "compilation_seconds": 0.25483770898426883,
+    "peak_process_rss_mib": 240.96875,
+    "compiled_temp_bytes": 410416,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "confidence",
+    "median_ms": 10.625499999150634,
+    "p10_ms": 10.297533206176013,
+    "p90_ms": 10.96786679700017,
+    "tokens_per_second": 6023.245965377248,
+    "timings_ms": [
+      11.083749996032566,
+      10.794041998451576,
+      10.625499999150634,
+      10.35270799184218,
+      10.260750015731901
+    ],
+    "compilation_seconds": 0.2513130830193404,
+    "peak_process_rss_mib": 240.578125,
+    "compiled_temp_bytes": 410416,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "confidence",
+    "median_ms": 20.911375002469867,
+    "p10_ms": 20.729857811238617,
+    "p90_ms": 21.796825004275888,
+    "tokens_per_second": 3060.5352346481704,
+    "timings_ms": [
+      22.12062501348555,
+      20.766333007486537,
+      21.311124990461394,
+      20.705541013740003,
+      20.911375002469867
+    ],
+    "compilation_seconds": 0.25398433301597834,
+    "peak_process_rss_mib": 238.9375,
+    "compiled_temp_bytes": 410480,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "confidence",
+    "median_ms": 44.94329102453776,
+    "p10_ms": 41.67759139672853,
+    "p90_ms": 45.96261699916795,
+    "tokens_per_second": 1424.0167673759765,
+    "timings_ms": [
+      46.01866699522361,
+      45.878542005084455,
+      44.94329102453776,
+      41.819042002316564,
+      41.583290993003175
+    ],
+    "compilation_seconds": 0.27881350001553074,
+    "peak_process_rss_mib": 228.65625,
+    "compiled_temp_bytes": 410608,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 256,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 64,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "ar",
+    "name": "ar_s0",
+    "steps": 128,
+    "strategy": "cached_causal",
+    "median_ms": 4.739958007121459,
+    "p10_ms": 4.716091608861461,
+    "p90_ms": 4.792908002855256,
+    "tokens_per_second": 27004.458648724074,
+    "timings_ms": [
+      4.822957998840138,
+      4.739958007121459,
+      4.724166996311396,
+      4.747833008877933,
+      4.710708017228171
+    ],
+    "compilation_seconds": 0.24432120798155665,
+    "peak_process_rss_mib": 237.0,
+    "compiled_temp_bytes": 250368,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "ancestral",
+    "median_ms": 5.038624978624284,
+    "p10_ms": 4.907233006088063,
+    "p90_ms": 5.379117000848055,
+    "tokens_per_second": 25403.756092787906,
+    "timings_ms": [
+      5.396666994784027,
+      5.352792009944096,
+      5.038624978624284,
+      4.966332984622568,
+      4.867833020398393
+    ],
+    "compilation_seconds": 0.26406387498718686,
+    "peak_process_rss_mib": 242.828125,
+    "compiled_temp_bytes": 1139440,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "ancestral",
+    "median_ms": 10.823166987393051,
+    "p10_ms": 10.102274792734534,
+    "p90_ms": 11.206650192616507,
+    "tokens_per_second": 11826.482964653125,
+    "timings_ms": [
+      11.031875008484349,
+      11.323166982037947,
+      10.823166987393051,
+      10.221250005997717,
+      10.022957983892411
+    ],
+    "compilation_seconds": 0.288711000001058,
+    "peak_process_rss_mib": 244.734375,
+    "compiled_temp_bytes": 1139440,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "ancestral",
+    "median_ms": 18.44304200494662,
+    "p10_ms": 18.19248401443474,
+    "p90_ms": 19.415741186821833,
+    "tokens_per_second": 6940.286746929766,
+    "timings_ms": [
+      19.84195798286237,
+      18.77641599276103,
+      18.251209025038406,
+      18.44304200494662,
+      18.15333400736563
+    ],
+    "compilation_seconds": 0.268511458998546,
+    "peak_process_rss_mib": 243.078125,
+    "compiled_temp_bytes": 1139440,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "ancestral",
+    "median_ms": 36.84762501507066,
+    "p10_ms": 35.93305819667876,
+    "p90_ms": 37.926366593455896,
+    "tokens_per_second": 3473.765268389701,
+    "timings_ms": [
+      38.643416977720335,
+      36.384458013344556,
+      36.85079101705924,
+      36.84762501507066,
+      35.632124985568225
+    ],
+    "compilation_seconds": 0.25689237500773743,
+    "peak_process_rss_mib": 241.40625,
+    "compiled_temp_bytes": 1139504,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "ancestral",
+    "median_ms": 73.45995801733807,
+    "p10_ms": 72.63713339925744,
+    "p90_ms": 76.21974959620275,
+    "tokens_per_second": 1742.4458637696112,
+    "timings_ms": [
+      77.41641599568538,
+      72.72533400100656,
+      74.42474999697879,
+      72.57833299809135,
+      73.45995801733807
+    ],
+    "compilation_seconds": 0.2746329999936279,
+    "peak_process_rss_mib": 242.390625,
+    "compiled_temp_bytes": 1139632,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "confidence",
+    "median_ms": 5.508959002327174,
+    "p10_ms": 5.177625210490078,
+    "p90_ms": 5.590525415027514,
+    "tokens_per_second": 23234.879756035287,
+    "timings_ms": [
+      5.636709014652297,
+      5.52125001559034,
+      5.508959002327174,
+      5.390750011429191,
+      5.0355420098640025
+    ],
+    "compilation_seconds": 0.25692695801262744,
+    "peak_process_rss_mib": 239.6875,
+    "compiled_temp_bytes": 1139504,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "confidence",
+    "median_ms": 10.615667008096352,
+    "p10_ms": 10.022100392961875,
+    "p90_ms": 11.113000399200246,
+    "tokens_per_second": 12057.650254324764,
+    "timings_ms": [
+      10.95424999948591,
+      10.615667008096352,
+      10.180375014897436,
+      9.916583978338167,
+      11.218833999009803
+    ],
+    "compilation_seconds": 0.2582344170077704,
+    "peak_process_rss_mib": 244.046875,
+    "compiled_temp_bytes": 1139504,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "confidence",
+    "median_ms": 20.15600001323037,
+    "p10_ms": 19.8668495984748,
+    "p90_ms": 21.070924802916124,
+    "tokens_per_second": 6350.46635820505,
+    "timings_ms": [
+      21.670207992428914,
+      19.85866599716246,
+      20.15600001323037,
+      19.87912500044331,
+      20.17200001864694
+    ],
+    "compilation_seconds": 0.25923420902108774,
+    "peak_process_rss_mib": 241.65625,
+    "compiled_temp_bytes": 1139504,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "confidence",
+    "median_ms": 39.70545800984837,
+    "p10_ms": 38.59084980213083,
+    "p90_ms": 40.57418321026489,
+    "tokens_per_second": 3223.7381563071613,
+    "timings_ms": [
+      41.06600000523031,
+      38.69250000570901,
+      39.70545800984837,
+      39.83645801781677,
+      38.523082999745384
+    ],
+    "compilation_seconds": 0.26188754101167433,
+    "peak_process_rss_mib": 241.6875,
+    "compiled_temp_bytes": 1139568,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "confidence",
+    "median_ms": 78.9214999822434,
+    "p10_ms": 76.34516719263047,
+    "p90_ms": 79.01120841270313,
+    "tokens_per_second": 1621.8647647193577,
+    "timings_ms": [
+      75.53283398738131,
+      78.93545902334154,
+      77.56366700050421,
+      78.9214999822434,
+      79.06170800561085
+    ],
+    "compilation_seconds": 0.2665097920107655,
+    "peak_process_rss_mib": 243.375,
+    "compiled_temp_bytes": 1139696,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 512,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "ar",
+    "name": "ar_s0",
+    "steps": 128,
+    "strategy": "cached_causal",
+    "median_ms": 52.79816599795595,
+    "p10_ms": 52.40387479425408,
+    "p90_ms": 56.536933401366696,
+    "tokens_per_second": 38789.226127272814,
+    "timings_ms": [
+      55.543583002872765,
+      52.636624983279034,
+      52.79816599795595,
+      52.248708001570776,
+      57.19916700036265
+    ],
+    "compilation_seconds": 0.2581939999945462,
+    "peak_process_rss_mib": 252.078125,
+    "compiled_temp_bytes": 3993400,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "ancestral",
+    "median_ms": 47.851249983068556,
+    "p10_ms": 47.111749614123255,
+    "p90_ms": 49.98810019460507,
+    "tokens_per_second": 42799.29992893925,
+    "timings_ms": [
+      46.71541601419449,
+      49.68612498487346,
+      50.18941700109281,
+      47.851249983068556,
+      47.706250014016405
+    ],
+    "compilation_seconds": 0.2988530839793384,
+    "peak_process_rss_mib": 275.1875,
+    "compiled_temp_bytes": 13550320,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "ancestral",
+    "median_ms": 92.7167919871863,
+    "p10_ms": 92.56447518710047,
+    "p90_ms": 93.3618750073947,
+    "tokens_per_second": 22088.771150354714,
+    "timings_ms": [
+      92.66299998853356,
+      92.49879198614508,
+      93.49512500921264,
+      92.7167919871863,
+      93.16200000466779
+    ],
+    "compilation_seconds": 0.2838214999937918,
+    "peak_process_rss_mib": 276.734375,
+    "compiled_temp_bytes": 13550320,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "ancestral",
+    "median_ms": 187.37800000235438,
+    "p10_ms": 186.75691640237346,
+    "p90_ms": 189.43820800632238,
+    "tokens_per_second": 10929.778308949115,
+    "timings_ms": [
+      189.002833008999,
+      189.72845800453797,
+      187.37800000235438,
+      186.88179200398736,
+      186.67366600129753
+    ],
+    "compilation_seconds": 0.3268688330135774,
+    "peak_process_rss_mib": 276.640625,
+    "compiled_temp_bytes": 13550320,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "ancestral",
+    "median_ms": 405.5542499991134,
+    "p10_ms": 371.94597480702214,
+    "p90_ms": 423.3211913960986,
+    "tokens_per_second": 5049.879270170334,
+    "timings_ms": [
+      371.682958008023,
+      372.3405000055209,
+      405.5542499991134,
+      435.15537498751655,
+      405.56991600897163
+    ],
+    "compilation_seconds": 0.28198220799095,
+    "peak_process_rss_mib": 282.46875,
+    "compiled_temp_bytes": 13550384,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "ancestral",
+    "median_ms": 744.424375006929,
+    "p10_ms": 742.3664084111806,
+    "p90_ms": 778.8311082171276,
+    "tokens_per_second": 2751.118943386207,
+    "timings_ms": [
+      742.4484590010252,
+      742.3117080179509,
+      788.2201250176877,
+      764.7475830162875,
+      744.424375006929
+    ],
+    "compilation_seconds": 0.291781332984101,
+    "peak_process_rss_mib": 282.34375,
+    "compiled_temp_bytes": 13550512,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "confidence",
+    "median_ms": 56.50329199852422,
+    "p10_ms": 52.45051620877348,
+    "p90_ms": 58.05035020457581,
+    "tokens_per_second": 36245.675739627535,
+    "timings_ms": [
+      52.79391602380201,
+      52.22158299875446,
+      58.38766699889675,
+      57.544375013094395,
+      56.50329199852422
+    ],
+    "compilation_seconds": 0.2881275420077145,
+    "peak_process_rss_mib": 286.15625,
+    "compiled_temp_bytes": 13550448,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "confidence",
+    "median_ms": 103.6482920171693,
+    "p10_ms": 103.23670860962011,
+    "p90_ms": 104.73404199583456,
+    "tokens_per_second": 19759.12926438527,
+    "timings_ms": [
+      103.6482920171693,
+      103.34695799974725,
+      104.14191699237563,
+      105.12879199814051,
+      103.16320901620202
+    ],
+    "compilation_seconds": 0.2852806670125574,
+    "peak_process_rss_mib": 271.4375,
+    "compiled_temp_bytes": 13550448,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "confidence",
+    "median_ms": 205.82200001808815,
+    "p10_ms": 204.96188318938948,
+    "p90_ms": 207.5252254086081,
+    "tokens_per_second": 9950.345443247159,
+    "timings_ms": [
+      207.56820900714956,
+      205.05433299695142,
+      207.4607500107959,
+      204.9002499843482,
+      205.82200001808815
+    ],
+    "compilation_seconds": 0.2914618749928195,
+    "peak_process_rss_mib": 278.375,
+    "compiled_temp_bytes": 13550448,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "confidence",
+    "median_ms": 412.47916701831855,
+    "p10_ms": 410.7323749864008,
+    "p90_ms": 413.22939180536196,
+    "tokens_per_second": 4965.099243203831,
+    "timings_ms": [
+      413.57120900647715,
+      412.47916701831855,
+      411.12799997790717,
+      410.46862499206327,
+      412.71666600368917
+    ],
+    "compilation_seconds": 0.28933624998899177,
+    "peak_process_rss_mib": 282.234375,
+    "compiled_temp_bytes": 13550512,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "confidence",
+    "median_ms": 820.9517920040525,
+    "p10_ms": 814.781925198622,
+    "p90_ms": 847.8959831991233,
+    "tokens_per_second": 2494.6653627499363,
+    "timings_ms": [
+      853.9309999905527,
+      815.3686250152532,
+      820.9517920040525,
+      838.8434580119792,
+      814.3907919875346
+    ],
+    "compilation_seconds": 0.28676329099107534,
+    "peak_process_rss_mib": 276.671875,
+    "compiled_temp_bytes": 13550640,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 8192,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 128,
+    "batch": 16,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "ar",
+    "name": "ar_s0",
+    "steps": 256,
+    "strategy": "cached_causal",
+    "median_ms": 154.93820802657865,
+    "p10_ms": 154.08894960419275,
+    "p90_ms": 157.50777500797994,
+    "tokens_per_second": 26436.34550941339,
+    "timings_ms": [
+      153.9911660074722,
+      154.93820802657865,
+      158.9876250072848,
+      155.28800000902265,
+      154.23562499927357
+    ],
+    "compilation_seconds": 0.25388033300987445,
+    "peak_process_rss_mib": 261.34375,
+    "compiled_temp_bytes": 7967032,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "ancestral",
+    "median_ms": 145.82762500504032,
+    "p10_ms": 139.37410820508376,
+    "p90_ms": 154.64076660573483,
+    "tokens_per_second": 28087.956584758394,
+    "timings_ms": [
+      140.87445801123977,
+      145.82762500504032,
+      157.7715830062516,
+      149.94454200495966,
+      138.37387500097975
+    ],
+    "compilation_seconds": 0.2920247500005644,
+    "peak_process_rss_mib": 347.046875,
+    "compiled_temp_bytes": 44663536,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "ancestral",
+    "median_ms": 243.05487499805167,
+    "p10_ms": 241.7596334067639,
+    "p90_ms": 245.47069980180822,
+    "tokens_per_second": 16852.161471901494,
+    "timings_ms": [
+      243.05487499805167,
+      246.9830829941202,
+      242.774084006669,
+      241.08333300682716,
+      243.20212501334026
+    ],
+    "compilation_seconds": 0.29543233397998847,
+    "peak_process_rss_mib": 354.859375,
+    "compiled_temp_bytes": 44663536,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "ancestral",
+    "median_ms": 488.4179590153508,
+    "p10_ms": 482.8603587986436,
+    "p90_ms": 490.26553340954706,
+    "tokens_per_second": 8386.26001438916,
+    "timings_ms": [
+      481.546791997971,
+      490.9351670066826,
+      489.26108301384374,
+      488.4179590153508,
+      484.8307089996524
+    ],
+    "compilation_seconds": 0.29663774999789894,
+    "peak_process_rss_mib": 365.25,
+    "compiled_temp_bytes": 44663536,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "ancestral",
+    "median_ms": 982.4837499763817,
+    "p10_ms": 975.1962832000572,
+    "p90_ms": 994.5545503869653,
+    "tokens_per_second": 4169.025696453978,
+    "timings_ms": [
+      973.754500009818,
+      977.358957985416,
+      982.4837499763817,
+      988.3384999993723,
+      998.6985839786939
+    ],
+    "compilation_seconds": 0.2940728749963455,
+    "peak_process_rss_mib": 360.5625,
+    "compiled_temp_bytes": 44663600,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "ancestral",
+    "median_ms": 2010.6202499882784,
+    "p10_ms": 1977.407834015321,
+    "p90_ms": 2021.1888331919909,
+    "tokens_per_second": 2037.1823073123228,
+    "timings_ms": [
+      1962.775584019255,
+      1999.3562090094201,
+      2016.5798329981044,
+      2010.6202499882784,
+      2024.2614999879152
+    ],
+    "compilation_seconds": 0.2932860839937348,
+    "peak_process_rss_mib": 366.703125,
+    "compiled_temp_bytes": 44663728,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "confidence",
+    "median_ms": 130.3201669943519,
+    "p10_ms": 129.17018320877105,
+    "p90_ms": 131.98898318223655,
+    "tokens_per_second": 31430.285077654342,
+    "timings_ms": [
+      130.3201669943519,
+      132.35766597790644,
+      128.72500001685694,
+      129.83795799664222,
+      131.43595898873173
+    ],
+    "compilation_seconds": 0.2881853750150185,
+    "peak_process_rss_mib": 350.984375,
+    "compiled_temp_bytes": 44663664,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "confidence",
+    "median_ms": 259.0987080184277,
+    "p10_ms": 256.3587750075385,
+    "p90_ms": 261.6533165797591,
+    "tokens_per_second": 15808.646948979316,
+    "timings_ms": [
+      257.2308749950025,
+      262.0144169777632,
+      261.11166598275304,
+      255.7773750158958,
+      259.0987080184277
+    ],
+    "compilation_seconds": 0.28776291699614376,
+    "peak_process_rss_mib": 357.34375,
+    "compiled_temp_bytes": 44663664,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 16,
+    "strategy": "confidence",
+    "median_ms": 575.7748330070172,
+    "p10_ms": 545.6535578181501,
+    "p90_ms": 602.4691749946214,
+    "tokens_per_second": 7113.8920376363185,
+    "timings_ms": [
+      575.7748330070172,
+      609.4546249951236,
+      591.9909999938682,
+      557.8658330196049,
+      537.5120410171803
+    ],
+    "compilation_seconds": 0.29013654199661687,
+    "peak_process_rss_mib": 318.390625,
+    "compiled_temp_bytes": 44663664,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 32,
+    "strategy": "confidence",
+    "median_ms": 1130.6322920136154,
+    "p10_ms": 1105.0009165890515,
+    "p90_ms": 1530.4964332084637,
+    "tokens_per_second": 3622.751648730262,
+    "timings_ms": [
+      1645.667750010034,
+      1130.6322920136154,
+      1109.2914170003496,
+      1357.7394580061082,
+      1102.1405829815194
+    ],
+    "compilation_seconds": 0.6376554580056109,
+    "peak_process_rss_mib": 254.296875,
+    "compiled_temp_bytes": 44663728,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 64,
+    "strategy": "confidence",
+    "median_ms": 2409.6932079992257,
+    "p10_ms": 2235.5774500058033,
+    "p90_ms": 2502.0126080024056,
+    "tokens_per_second": 1699.8014462600072,
+    "timings_ms": [
+      2449.9204580206424,
+      2409.6932079992257,
+      2536.7407079902478,
+      2195.07600000361,
+      2296.3296250090934
+    ],
+    "compilation_seconds": 0.3041252499970142,
+    "peak_process_rss_mib": 346.734375,
+    "compiled_temp_bytes": 44663856,
+    "compiled_argument_bytes": 945284,
+    "compiled_output_bytes": 16384,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 256,
+    "batch": 16,
+    "extrapolates_training_length": true
+  }
+]

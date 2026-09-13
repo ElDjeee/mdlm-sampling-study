@@ -1,0 +1,62 @@
+{
+  "name": "mlm_s0",
+  "kind": "mlm",
+  "schedule": "linear",
+  "seed": 0,
+  "experiment": {
+    "width": 32,
+    "layers": 1,
+    "heads": 4,
+    "length": 32,
+    "batch_size": 4,
+    "train_steps": 8,
+    "learning_rate": 0.001,
+    "diffusion_steps": 8,
+    "train_chars": 10000,
+    "seeds": [
+      0
+    ],
+    "log_every": 4,
+    "eval_windows": 8,
+    "eval_repeats": 1,
+    "sample_count": 4,
+    "timing_repeats": 2,
+    "benchmark_shapes": [
+      [
+        32,
+        1
+      ]
+    ],
+    "sampling_steps": [
+      4,
+      8
+    ]
+  },
+  "history": [
+    {
+      "step": 0,
+      "val_objective": 4.049706935882568,
+      "loss": null
+    },
+    {
+      "step": 4,
+      "loss": 4.0174431800842285,
+      "val_objective": 4.045696258544922,
+      "gradient_norm": 1.8359649181365967,
+      "lr": 6.024587491992861e-05
+    },
+    {
+      "step": 8,
+      "loss": 4.046509742736816,
+      "val_objective": 4.041204452514648,
+      "gradient_norm": 1.7166635990142822,
+      "lr": 3.687170828925446e-05
+    }
+  ],
+  "training_seconds": 0.012423500011209399,
+  "compilation_seconds": [
+    1.002716415998293
+  ],
+  "parameters": 16634,
+  "tokens_seen": 1024
+}

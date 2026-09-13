@@ -1,0 +1,137 @@
+[
+  {
+    "kind": "ar",
+    "name": "ar_s0",
+    "steps": 32,
+    "strategy": "cached_causal",
+    "median_ms": 0.6543334893649444,
+    "p10_ms": 0.594566689687781,
+    "p90_ms": 0.7141002890421078,
+    "tokens_per_second": 48904.72598469203,
+    "timings_ms": [
+      0.5796249897684902,
+      0.7290419889613986
+    ],
+    "compilation_seconds": 0.32475616698502563,
+    "peak_process_rss_mib": 222.96875,
+    "compiled_temp_bytes": 13832,
+    "compiled_argument_bytes": 66544,
+    "compiled_output_bytes": 128,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 32,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "ancestral",
+    "median_ms": 0.9848744957707822,
+    "p10_ms": 0.7237413083203137,
+    "p90_ms": 1.2460076832212508,
+    "tokens_per_second": 32491.449557698383,
+    "timings_ms": [
+      0.6584580114576966,
+      1.311290980083868
+    ],
+    "compilation_seconds": 0.49264170799870044,
+    "peak_process_rss_mib": 202.421875,
+    "compiled_temp_bytes": 54400,
+    "compiled_argument_bytes": 66544,
+    "compiled_output_bytes": 128,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 32,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "ancestral",
+    "median_ms": 2.0235625124769285,
+    "p10_ms": 1.8471125193173066,
+    "p90_ms": 2.2000125056365505,
+    "tokens_per_second": 15813.694809373894,
+    "timings_ms": [
+      2.244125003926456,
+      1.803000021027401
+    ],
+    "compilation_seconds": 0.38589125001453795,
+    "peak_process_rss_mib": 188.53125,
+    "compiled_temp_bytes": 54400,
+    "compiled_argument_bytes": 66544,
+    "compiled_output_bytes": 128,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 32,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 4,
+    "strategy": "confidence",
+    "median_ms": 1.6602920077275485,
+    "p10_ms": 1.3840584026183933,
+    "p90_ms": 1.9365256128367037,
+    "tokens_per_second": 19273.718027347844,
+    "timings_ms": [
+      1.3150000013411045,
+      2.0055840141139925
+    ],
+    "compilation_seconds": 0.3563687920104712,
+    "peak_process_rss_mib": 218.984375,
+    "compiled_temp_bytes": 54464,
+    "compiled_argument_bytes": 66544,
+    "compiled_output_bytes": 128,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 32,
+    "batch": 1,
+    "extrapolates_training_length": false
+  },
+  {
+    "kind": "mdlm",
+    "name": "mdlm_s0",
+    "steps": 8,
+    "strategy": "confidence",
+    "median_ms": 1.5523120091529563,
+    "p10_ms": 1.3900952093536034,
+    "p90_ms": 1.7145288089523092,
+    "tokens_per_second": 20614.412444996356,
+    "timings_ms": [
+      1.3495410094037652,
+      1.7550830089021474
+    ],
+    "compilation_seconds": 0.45243495801696554,
+    "peak_process_rss_mib": 182.25,
+    "compiled_temp_bytes": 54464,
+    "compiled_argument_bytes": 66544,
+    "compiled_output_bytes": 128,
+    "memory_note": "Fresh-process CPU RSS high-water mark includes Python, JAX and compilation; not GPU VRAM or inference-only memory",
+    "backend": "cpu",
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "length": 32,
+    "batch": 1,
+    "extrapolates_training_length": false
+  }
+]

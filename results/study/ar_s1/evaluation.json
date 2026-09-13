@@ -1,0 +1,73 @@
+{
+  "name": "ar_s1",
+  "kind": "ar",
+  "schedule": "linear",
+  "seed": 1,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T11:57:20+0200",
+  "val": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.0723132975399494,
+    "se": 0.05886364358126983,
+    "n": 64
+  },
+  "test": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.096036396920681,
+    "se": 0.05506529976799131,
+    "n": 64
+  },
+  "samples": [
+    "\nA roy burth, thalt love them.\n\nBRAUTUS CORIOLANUS:\nBothout burnes, I, must fuls spafticicar thap me all'd:\nBeirts. MaRIUS:\nSir,",
+    "e my lord, alice my of morry.\n\nCORIOLANUS:\nWhat I deliagnes, my remit to heat taked stange here. I will enotle\nThere was bune no",
+    "Ke stambled,\nHe had now you, I say, comparis\nStron me that state.\n\nFirst Citall:\nCome, disaid; to stabh honer; by your and that ",
+    "l chancle their this no brible I dier's afe\nDeant. You my, that sro mude, to done.\nHave you presed we here have in lovedy thus\nv",
+    "Takely.\n\nHASTUS:\nWill tear be the huity; beogcerat tendent thy ye have benies stat letch!\n\nVALERERT:\nAy he the please his pe tha",
+    "lower.\n\nFirst Servingman:\nI'll we bout ward!\n\nQUEEEN S:\nShole to, I it shall suble have proGd.\nTarething Coriolanus: why emrenou",
+    "he theme when Covene me; and in their\nAs mother she death voices to him, would.\n\nBRUTUS:\nAfouter hell.\n\nBRUTUS:\nIf the draishggm",
+    "s.\n\nMARCIUS:\nSo, Peak to virt and the world be the him anter!\nFor Clerenal waster, I'll toZ bespetions, our the home!U\nThe him i",
+    "nd man you untran thee kindutself paing wings:\nUp wars agarnous on; and swere for loventhy\nFor Aufidius trees of which a\ncoman b",
+    ":\nFair well never, he cin-- withere, for enemy!\nA gan:\nBing yeen, you speven you confire and\nThan the can sunstelforter mays are",
+    "cered these, eving you's here many. My?\nWhich lovest would I' most; and is Rome, speak: no his mistans\nWith dedvers by of out yo",
+    " dram town beet, thy wars itches,\nHe's on Aufidius may conted thesert to have pitises you blagains\nOf my crave words see, meen, ",
+    "re, oar contentiors,\nTo a sone for the wilte may's carrent these under\nfrier hey sainess hapeast.\n\nLAREY:\nMy I'll him natter's u",
+    "MANRET:\nTo mark nowner My thang scured, and the\nThe modted that sta incee tall prospines your prower' he\nThe destam way of sinve",
+    "rrown\nSenvingman:\nThe this, and vurd 'With\nchile mainsternain.\n\nSICINIUS:\nNay, my ised good,\nTerake thast wars that drews assill",
+    "nomexak actatence,\nTare he lese. O, or kily. ell the prays cloos, when for mexered\nTurnain upoe theral! You sEded\nWhom.\n\nSecond ",
+    "ce my resection! Sobure I do prise oughvee would\nHastanTide bear scanched is vraity; 'What we would\nAs carrcee 'zeed: and you\nWe",
+    "l good the bow;\nDidence are your actpeatiors, say stry daius thee aVcusar\nAs you withen bein hame. Junik yours,\nEveeg pain homod",
+    "there leave but duis patter's, their thee,\nWhere's know in strefore than my speace;\nTheeir have power, at said her?\nThe's o'tis'",
+    "e, seet and souly eneras,\nWhyere thou boty lesse moveZstimes.\nFor O, feir is riscentes sirenct wentiver.\n\nFirst Servingmavance\nS",
+    "M:\nGet all thee see; well atter, vill theryan reasur\nTo, you a you capon And and in presectiong.\n\nCORIOLANUS:\nWe masters\nMy the ",
+    "\nAnd virken thy ploope.' Our call vall we you intours\nCliveson be the the so! fellower, as in childrais\nShold be mother Marcius.",
+    "the dire of his this,\nAw AuDil me witil of the divered own the pent, like\nBy the I; boter worth which onsiionmon urk carred,\nAs ",
+    "not nong't.\n\nSICINIUS:\nHe did mostens,\nAffight Rome, seegeds dows, a wesome we.\n\nThy groward, faither;\nOur desenral mick all bou",
+    " how, If, I till\nSecond well him. Me of.\n\nBRUTUS:\nYouw'll are shall flain in our ait;\nAn\nThis your of shall Aufidion making-not ",
+    "eit valice.\n\nSecond Serk Rome, our deserve fourth\nAs Murdeer:\nWe ditiudines, I there afters thear news.\n\nFirst Servingman:\nNay e",
+    "ugh doman one, thy where hea,\nAnd caceal my my the inscame tplearl,\nTheirt say falst know's and this deatter is nexeded\nWith a.\n",
+    "od urp?\n\nMARCIUS:\nYour be yield you to hatlant, and\nThat neched gown warnance busing to the Mhere; grea\nHave davien Volsce? Yhan",
+    "s thou.\n\nSeconder poorded goraced,\nonfathelf, with deaten thy mead-comed weas reak,\nThour basosiess and she all at peliven,\nAnd ",
+    "The can my making.\nWe his Gim'st nevated to so, fawer: thy sy his awet regter--\nSecond his flate, then and the where ment\nBever ",
+    "mritor:\nWe trieve my with readust and on on him of he did of thee!\n\nGLOUCG\nMENENIUS:\nWhy naman perpose and at wars,\nYour would g",
+    " mocing Marcius of loogly,\nNo, morkn have out; a the sere\nWith marry congues! With this a were mishbali!\nAPehy have, sir: as las"
+  ],
+  "generation_protocol": {
+    "steps": 128,
+    "strategy": "cached_causal",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.014404296875,
+    "js_1": 0.011175323198181653,
+    "distinct_2": 0.1392716535433071,
+    "js_2": 0.09679527337221627,
+    "distinct_3": 0.4392361111111111,
+    "js_3": 0.2982975763956553,
+    "repetition_4": 0.027750000000000014,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-13T12:24:15+0200",
+  "jax": "0.4.38",
+  "backend": "[CpuDevice(id=0)]",
+  "sha256": {
+    "nanodiff/model.py": "7bace0df1996bb2a3ebca62572c6343c02857939999fe0e13145fc89b165b587",
+    "nanodiff/diffusion.py": "c3eceee4dc56b12510d0e70236f2d92203c4f2914d4e22a1d8b63052bfb76d91",
+    "nanodiff/training.py": "cf60e7bf686a6f6390ee0118d2ba4359935cb06247952e74bee3c37d4e8cbce3",
+    "nanodiff/exact_copy.py": "8a6a01d90cedbb0c7a51125a9db8a92976a0d934918f0ddffc35e4ba8e69e957",
+    "proof.py": "82a58ee696783878686d20aac5ae037827cc6c4e6338b6dc1ff837c830bcba39",
+    "configs/proof.json": "30d70d0bbfcf72025406455e59ca868fea6f2a14a7e839cbf8c2e556c48fc8e9"
+  }
+}

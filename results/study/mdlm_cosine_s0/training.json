@@ -1,0 +1,151 @@
+{
+  "name": "mdlm_cosine_s0",
+  "kind": "mdlm",
+  "schedule": "cosine",
+  "seed": 0,
+  "experiment": {
+    "width": 96,
+    "layers": 2,
+    "heads": 4,
+    "position_scale": 0.1,
+    "local_bias": true,
+    "length": 128,
+    "batch_size": 16,
+    "train_steps": 1200,
+    "learning_rate": 0.001,
+    "diffusion_steps": 64,
+    "train_chars": 200000,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "log_every": 100,
+    "eval_windows": 64,
+    "eval_repeats": 2,
+    "sample_count": 32,
+    "timing_repeats": 5,
+    "benchmark_shapes": [
+      [
+        64,
+        1
+      ],
+      [
+        128,
+        1
+      ],
+      [
+        128,
+        16
+      ],
+      [
+        256,
+        16
+      ]
+    ],
+    "sampling_steps": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "history": [
+    {
+      "step": 0,
+      "val_objective": 4.26273775100708,
+      "loss": null
+    },
+    {
+      "step": 100,
+      "loss": 3.4611458778381348,
+      "val_objective": 3.2643115520477295,
+      "gradient_norm": 0.789219856262207,
+      "lr": 0.0009866401087492704
+    },
+    {
+      "step": 200,
+      "loss": 3.2930915355682373,
+      "val_objective": 3.1577541828155518,
+      "gradient_norm": 1.0950199365615845,
+      "lr": 0.0009469325887039304
+    },
+    {
+      "step": 300,
+      "loss": 2.9427311420440674,
+      "val_objective": 3.0639700889587402,
+      "gradient_norm": 0.9124928116798401,
+      "lr": 0.0008835822809487581
+    },
+    {
+      "step": 400,
+      "loss": 2.7932851314544678,
+      "val_objective": 2.9867520332336426,
+      "gradient_norm": 1.195664882659912,
+      "lr": 0.0008009062148630619
+    },
+    {
+      "step": 500,
+      "loss": 2.9409284591674805,
+      "val_objective": 2.914686441421509,
+      "gradient_norm": 1.484837293624878,
+      "lr": 0.0007045387756079435
+    },
+    {
+      "step": 600,
+      "loss": 2.777545928955078,
+      "val_objective": 2.86527681350708,
+      "gradient_norm": 1.0273315906524658,
+      "lr": 0.000601047242525965
+    },
+    {
+      "step": 700,
+      "loss": 2.7081527709960938,
+      "val_objective": 2.8286733627319336,
+      "gradient_norm": 0.9938548803329468,
+      "lr": 0.0004974842304363847
+    },
+    {
+      "step": 800,
+      "loss": 2.505920886993408,
+      "val_objective": 2.815072774887085,
+      "gradient_norm": 1.1754393577575684,
+      "lr": 0.0004009075346402824
+    },
+    {
+      "step": 900,
+      "loss": 2.591944456100464,
+      "val_objective": 2.793477773666382,
+      "gradient_norm": 1.1999342441558838,
+      "lr": 0.00031789872446097434
+    },
+    {
+      "step": 1000,
+      "loss": 2.467064380645752,
+      "val_objective": 2.7580151557922363,
+      "gradient_norm": 1.137468695640564,
+      "lr": 0.00025411462411284447
+    },
+    {
+      "step": 1100,
+      "loss": 2.8730075359344482,
+      "val_objective": 2.753652334213257,
+      "gradient_norm": 1.8469606637954712,
+      "lr": 0.00021390203619375825
+    },
+    {
+      "step": 1200,
+      "loss": 2.648150682449341,
+      "val_objective": 2.7423465251922607,
+      "gradient_norm": 1.3152883052825928,
+      "lr": 0.0002000013628276065
+    }
+  ],
+  "training_seconds": 59.972696088050725,
+  "compilation_seconds": [
+    1.0261383340111934
+  ],
+  "parameters": 236319,
+  "tokens_seen": 2457600
+}

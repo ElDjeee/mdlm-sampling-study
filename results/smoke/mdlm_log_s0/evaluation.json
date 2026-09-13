@@ -1,0 +1,164 @@
+{
+  "name": "mdlm_log_s0",
+  "kind": "mdlm",
+  "schedule": "log",
+  "seed": 0,
+  "steps_trained": 8,
+  "evaluated_at": "2026-09-13T11:55:09+0200",
+  "val": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 5.853094279766083,
+    "se": 0.1912702654518754,
+    "n": 8,
+    "repeat_means": [
+      5.853094100952148
+    ],
+    "steps": 8,
+    "repeats": 1,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "val_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.0,
+      "masked_ce_nats": 4.04209041595459,
+      "masked_tokens": 28
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.0746268630027771,
+      "masked_ce_nats": 4.033188343048096,
+      "masked_tokens": 67
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.06976744532585144,
+      "masked_ce_nats": 4.0352559089660645,
+      "masked_tokens": 129
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.08737864345312119,
+      "masked_ce_nats": 4.0271687507629395,
+      "masked_tokens": 206
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.08771929889917374,
+      "masked_ce_nats": 4.033971309661865,
+      "masked_tokens": 228
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.0859375,
+      "masked_ce_nats": 4.033573150634766,
+      "masked_tokens": 256
+    }
+  ],
+  "test": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 5.847824156284332,
+    "se": 0.18374607707522753,
+    "n": 8,
+    "repeat_means": [
+      5.8478240966796875
+    ],
+    "steps": 8,
+    "repeats": 1,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "test_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.0714285746216774,
+      "masked_ce_nats": 4.050632476806641,
+      "masked_tokens": 28
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.05970149114727974,
+      "masked_ce_nats": 4.022491931915283,
+      "masked_tokens": 67
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.07751937955617905,
+      "masked_ce_nats": 4.01854944229126,
+      "masked_tokens": 129
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.06796116381883621,
+      "masked_ce_nats": 4.020214080810547,
+      "masked_tokens": 206
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.07017543911933899,
+      "masked_ce_nats": 4.026954650878906,
+      "masked_tokens": 228
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.07421875,
+      "masked_ce_nats": 4.02423620223999,
+      "masked_tokens": 256
+    }
+  ],
+  "samples": [
+    "NwOgjTcF-UdzxyofvpIHb�T'HsqirH.M",
+    "Dqpj!\n LlSS!byy!bF\nHUAh;;iWt.cb:",
+    "tdMkLaNl?k,'bFn!PwlTb jFj vTNPsh",
+    "Ua�WvTUjLgrwJ!jY-jjNt;PbwdcilFjs"
+  ],
+  "generation_protocol": {
+    "steps": 16,
+    "strategy": "ancestral",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.390625,
+    "js_1": 0.34346300815574793,
+    "distinct_2": 0.967741935483871,
+    "js_2": 0.9556387439792209,
+    "distinct_3": 1.0,
+    "js_3": 0.9999999999999999,
+    "repetition_4": 0.0,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 4,
+    "generated_characters": 128
+  },
+  "infilling": {
+    "masked_span": [
+      10,
+      21
+    ],
+    "accuracy": 0.056818181818181816,
+    "unchanged_context": true,
+    "reference": "means to live.\n\nSEBASTIAN:\nOf th",
+    "input": "means to l███████████TIAN:\nOf th",
+    "output": "means to leeeeeaaaaaaTIAN:\nOf th",
+    "note": "Exact-match characters in held-out middle third, greedy confidence sampler; not a semantic metric; AR right-context comparison not claimed"
+  },
+  "trajectory": [
+    "means to l███████████TIAN:\nOf th",
+    "means to l██████a████TIAN:\nOf th",
+    "means to l██████a████TIAN:\nOf th",
+    "means to l██████a████TIAN:\nOf th",
+    "means to l██████aa███TIAN:\nOf th",
+    "means to l██████aa███TIAN:\nOf th",
+    "means to l██████aa███TIAN:\nOf th",
+    "means to l█████aaa███TIAN:\nOf th",
+    "means to l█████aaa███TIAN:\nOf th",
+    "means to l█████aaaa██TIAN:\nOf th",
+    "means to l█████aaaa██TIAN:\nOf th",
+    "means to l█████aaaaa█TIAN:\nOf th",
+    "means to l████eaaaaa█TIAN:\nOf th",
+    "means to l███eeaaaaa█TIAN:\nOf th",
+    "means to l██eeeaaaaa█TIAN:\nOf th",
+    "means to l██eeeaaaaaaTIAN:\nOf th",
+    "means to leeeeeaaaaaaTIAN:\nOf th"
+  ]
+}

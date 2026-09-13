@@ -1,0 +1,194 @@
+{
+  "name": "mlm_s2",
+  "kind": "mlm",
+  "schedule": "linear",
+  "seed": 2,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T12:02:41+0200",
+  "val": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.9671407602727413,
+    "se": 0.02426392844294148,
+    "n": 64,
+    "repeat_means": [
+      3.967561721801758,
+      3.9667201042175293
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "val_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.405637264251709,
+      "masked_ce_nats": 2.125674247741699,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.3277108371257782,
+      "masked_ce_nats": 2.3629403114318848,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.25,
+      "masked_ce_nats": 2.7369794845581055,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.17858897149562836,
+      "masked_ce_nats": 3.1066455841064453,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.15300026535987854,
+      "masked_ce_nats": 3.3202250003814697,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.15087890625,
+      "masked_ce_nats": 3.4465689659118652,
+      "masked_tokens": 8192
+    }
+  ],
+  "test": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.980932418256998,
+    "se": 0.02277085214781502,
+    "n": 64,
+    "repeat_means": [
+      3.970526695251465,
+      3.991338014602661
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "test_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.41421568393707275,
+      "masked_ce_nats": 2.095710277557373,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.3108433783054352,
+      "masked_ce_nats": 2.4152212142944336,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.24203668534755707,
+      "masked_ce_nats": 2.779066801071167,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.17122279107570648,
+      "masked_ce_nats": 3.0961191654205322,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.15042085945606232,
+      "masked_ce_nats": 3.341454267501831,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.1453857421875,
+      "masked_ce_nats": 3.467350959777832,
+      "masked_tokens": 8192
+    }
+  ],
+  "samples": [
+    " tht enar earee fo em \n,nots meh waht ehon suoy.\nB\n toaveh theh san ta thae tnof  Ie.\n\nSeWlam er sem noen a taares tes eool onne",
+    "on ta es ser eht youoy noa to to teerh etar eevre serae:fat ema tI  meereh sats em se\neren to  eht  theane ret hes ha e the tou ",
+    "a ned te her eb the reht  aren eeiw; ePrened the I tosen,\nson taer rereh I era re hes\neht  anot ben deh I neersene he tehert  In",
+    " mer tae hee sa  ouoy uond ,eere hat a dafeI   mI het se,\nteh sena  are res eathe rea ,e noner tes he eh toon  ine sereve\ndned t",
+    " eb   bean to the toussi   I\n,eem tant eou eo to  merae met hen ave hett o tieare ev\naser ea enhe not oent ,ats no to stga\nhee s",
+    "e.\nAt eh to er save raeh ero\n\n.em he saonet uo mes tof  aoou tha es the hetar tours,\nB\n:SUTtarl rae set  ot ouoy noy me tar eer ",
+    "ce, I I satre nous weh it ouoy I  ther eremow den.\n\n?nem se rae hwo not nof to eb  to mer eon tour \ne\nrem  ote tare het hes o te",
+    "f ot nated not seere tant ot  eh the sevaes  ma seeraes I\nde as meen teh, I eriere tht ant  ,ehtae  thet her eon ehe the so ne t",
+    " toe I tares  mes ere Ilat to thet hend\n,eeI   bhet I gefne aha teot tehht I eres eare.\nHes noount  orhe cerou reat het herse he",
+    " eh sereres I ,eht egahe nI  aer here renowt ehre sat w, aeere teb seht of serere taeh\n,sent ous yon denear teht the mat anet  I",
+    " I erat te wyou yarot searF\n\n.eht em eh tot meh sem the.\n\nAn saater menab I erte\nB\n.uoy eeh to  our teo  nyous here eht enot ehe",
+    "apes I na  eh tnof ,ereae ton der hene ruot seha  be re,\n.uoy reever eoy ruoy I rerre,\n,ees  fond eht er I tavehe o nes theee se",
+    "s none eres there ehtaon I   I I meh tattesp:enI  the sas  uoy hem  aneb  ouore\n,ere  the erat hes uo to eh eer eons fot ot I re",
+    "\n.ever saht  thae the erae ton tehh eer  ao reat he tnon\n,eR  one hem'eb tone\n\n.re rae.\nIn the fet nae trev nont eefre enere, re",
+    "e re reeh rer m seruot seo uont  ore  taone thte ;sevine.\n\n ino ses eooof ere her erac,\ntee uooht  mea a na  I setnenim s ot me ",
+    "aase seb  me er you yoy uoon teer too to not dere I ta.\n\nNhe aaneot hev ed ere be ton:\n.em no et raeht  oreans  be, sereh te ot ",
+    "uon de suon at ot beeeem  otus I teraec hecler ta tengan.\n\n.et tnat eht er eht ea re anes eh tes ser seatn aes the\n.eaaem  eht  ",
+    " mer ase ereht I rear evver ane ther em fepned rere\n,hat tuon dent be yours ethe see rat\nsuo treht suo to no es ere het eces I a",
+    "nna dn at eht eeh seht I ti neveh rehd uonse tou fo heve.\nIe tae reakt hem tre ere,\nB\n,eon met on the nuot your hees tue root I ",
+    " ah sere eno  o tay ruork ton deb be hert of tnofhe eroR\n\n.uoy teht fore he  em\n,er eth eht to em are at sutom   Ie mout reet  I",
+    " eht nuoys be I ,esnert sat  bee\nI reeh a ont arem\n,evan your fo reht o see hetare rew I\nenon ehneipe reere tht het to I  on ere",
+    "wond  Is herbto sdee erer fon I  maer taheas I  mereitayatp nat he he thof eht\nuo no see you noud uyouoy I thas I seree seveh to",
+    "einer eera me toy uo em sord I meht therareer I\n,em to I me on  ase eevarer eht evret\n.ee tan sdere I  In, tehen  Idee, bet \nee ",
+    " hes tae oow\n\nAn si dfen at be to rem  arey thet o teare,\nWes eaatnoe karee rere tA\n\n.ere trat eht   maenat  ouer em ot sare,\n,e",
+    " it he rae eht ouo ot earrer eet o ser uoy ou yout  ous.\n\nOf to teres stahenduerem  haves ,noet  oruo ouyo yoas eree se  ot ton ",
+    " ster m ere reh to fehe teht I neh erterse, dnor eehe ton  mer torreF\n.ters eri te, yaf at nous abeh reer an oul ti he eertaet  ",
+    " on derat tot  saa es ou oo to  mem  thae :icreiF\n\n.reve evaeh sand to erat ehale ero\n oes tnoet her ereen eveare sa me he on en",
+    " at sere hes a ton then aht thus\nwon eo  em tteh teh tentit mate eht  the  Ine soeh omtew eh ton daerre hen aaan seh me  arae th",
+    "  Ie ste eher\n,ecretona  I  I em revierane,\nTseer erae  Ion\nTe ato  meaolf  eeh m to\nI neare eres  thaath erare ero no derac ere",
+    " eone eht reht tam een I tas met heth eheb  I to ne tan.\n\nnelve  aas eeh ert sente raer em thee rereo  aen saert eerer ere ree m",
+    "esno   ba ere tout  aene to te mear theer, eruoy tuou se\neht  touore thaem ne hes  foo eht raned snat he neow dend\neare tous ser",
+    " mae here her teas euot ou ot sehe oo esreeka  of tou dre,\nnaeh taer the ot  oot erae,\n;ehs nake soout eh  tor-aeevgeo ner her t"
+  ],
+  "generation_protocol": {
+    "steps": 16,
+    "strategy": "confidence",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.0107421875,
+    "js_1": 0.11300516184880094,
+    "distinct_2": 0.08366141732283465,
+    "js_2": 0.34659766607851855,
+    "distinct_3": 0.28249007936507936,
+    "js_3": 0.6034915698198224,
+    "repetition_4": 0.041250000000000016,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  },
+  "infilling": {
+    "masked_span": [
+      42,
+      85
+    ],
+    "accuracy": 0.08575581395348837,
+    "unchanged_context": true,
+    "reference": "ua.\nDo you hear, sir? To leave frivolous circumstances,\nI pray you, tell Signior Lucentio that his father is\ncome from Pisa, and",
+    "input": "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "output": "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io me no  fon tot eho  eres  ntio that his father is\ncome from Pisa, and",
+    "note": "Exact-match characters in held-out middle third, greedy confidence sampler; not a semantic metric; AR right-context comparison not claimed"
+  },
+  "trajectory": [
+    "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce████████████████████████████████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█  ███████████████████████████████████e█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  █o█████████████████████████████████es  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  █on ███████████████████████████████es  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton ee█████████████████████████████es  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eer████████ ██████████████████res  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera███████ █████████████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  █████ █o███████████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io███ no███████████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io███ no  █████████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io █e no  █o███████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io █e no  fon █████████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io me no  fon █o███████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io me no  fon to█ e████eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io me no  fon tot eho██eres  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceb  ton eera  Io me no  fon tot eho  eres  ntio that his father is\ncome from Pisa, and"
+  ]
+}

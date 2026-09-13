@@ -1,0 +1,40 @@
+{
+  "pairs": 4,
+  "width": 64,
+  "layers": 2,
+  "heads": 4,
+  "position_scale": 1.0,
+  "local_bias": false,
+  "train_steps": 2000,
+  "batch_size": 64,
+  "learning_rate": 0.003,
+  "diffusion_steps": 64,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "checkpoints": [
+    0,
+    200,
+    500,
+    1000,
+    2000
+  ],
+  "sampling_steps": [
+    4,
+    16,
+    64,
+    256
+  ],
+  "sample_count": 4096,
+  "sample_batch": 256,
+  "acceptance": {
+    "valid_probability_min": 0.9,
+    "total_variation_max": 0.1,
+    "exact_nll_bits_per_character_max": 0.56,
+    "min_valid_mode_probability_min": 0.025,
+    "empirical_vs_exact_tv_max": 0.06
+  },
+  "scope": "Controlled demonstration of joint-distribution learning and ancestral sampler correctness. Not a paper reproduction or language benchmark. Thresholds fixed before these runs."
+}

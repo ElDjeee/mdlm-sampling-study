@@ -1,0 +1,73 @@
+{
+  "name": "ar_s2",
+  "kind": "ar",
+  "schedule": "linear",
+  "seed": 2,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T11:57:24+0200",
+  "val": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.0724656879901886,
+    "se": 0.058297993213429426,
+    "n": 64
+  },
+  "test": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 3.0991240181028843,
+    "se": 0.05636551979188553,
+    "n": 64
+  },
+  "samples": [
+    " thind.\n\nCORIOLANUS:\nI vould his this will a thee go: of godHe;\nMake id alf your forrnoug enatued, ennt.\n\nQUENcious penterabon:\n",
+    "nor city his you,\nThe'll I'll nate of sold discrams, to mysemed;\nOur we have much saisurt of e'Ther joy lard:\nAstervely sir, I a",
+    "e telone ugery;\nTo they lovedily power aouty arss?\nSet all\nByfoly by my you hadir that I world you:\nYour come?\n\nFirst Servingman",
+    " moral thee, now'll hands\nHe mother on toer.\n\nLADY ANNE:\nBy Coritus the him a gracest. That for me, havour\nHis chot will I say, ",
+    " the that didently.\n\nSICINIUS:\nFay, no an my Coriolanus?\n\nGLOUCESTER:\nI bithen.\n\nReconstorain:\nWhose that head not, was\nAre was ",
+    "TGriquil'd leat it.\n\nGLOUCGINIUS:\nVongrains:\nSoble hought, ney, Cwhise rishal--pray,\nHe noble we hether sold be of himss of hear",
+    "scmaite tesen for I steor extrupted\nThe warded to abil him with then accous 'er deface, ind;\nAy, by tearblishious beart I sham.\n",
+    "d alone--\nWhilchiey speort.\n\nVOLUMNIA:\nSkeech:\nI in po, all be the stong\nCitizen:\nFirst they are for eyour has.\n\nAEdilant they w",
+    "k.\n\nSecond Fivires Senatoli:\nMert his me of' thou haved disting;\nBet it then have beale, but a\nhas him out sholy supon.\n\nMENENIU",
+    "e it?\n\nCOMENIUS:\nGiThy shall who; noble that that be!\n\nBRARAEHIY:\nNo, knows the gody, they gay, will consunger of a peach\nNon uc",
+    "R'torm,\nThe appacie, sailst as gontera he rause office\nndrown but other; exese arty, if be\nA for your beadie heart; and nom's th",
+    "ese upper retah been shall thereasing,\nWeret aginfuless; and sroples, as, have afulid God reatore.\n\nMENENIUS:\nI'll the perven he",
+    " murses, what as stainst offe, singer,\nAguider mets. No. He make where: but a a beill\nbeis speat call no. If youugh would aret y",
+    "sirly.\n\nLARTIUS:\nNot sension of thee of one, they it man,\nPea! wich this agraqoual hath tooth mether. Like 't.\n\nAUFGir My wishor",
+    "h ye you coundry feak,\nTo hear think of mattain\nMore fursuition, some as citteng or at\nYour barPreacioplian, lost from not haste",
+    "ure uway, dongunes with mout the commety\nThat meinghing, if the bealive sir, and him\nAnd mist crope o ficesel'd us betily\nWith t",
+    "'s for'd to bed-his hasse!\n\nSell whall the blook of their know he have steake,\nShe before, and thou thee, stand their sit from R",
+    "p denather deadled sure\nWor good becally aryqual, hethrey and bray\ntheir so oldishable bloods: he what\nWhom betius to pressemply",
+    " that not regors\nantorowZind of curse dublers omn hunrepesbY,\nPridagh howat shall his pervicy his yalin\nThe moth stand of him: i",
+    "lor that three will be\nA petchan blood'st hour tron ack.\n\nGLOUCESTER:\nNour make is offices! hour about?\n\nThird! Murdonive wellaw",
+    " so all dence.\n\nMARCIUS:\n\nRitsom alone, the only,\nfort, elive Mardius; what you streath sir, him\nWifllt your will remes:, I'll b",
+    "read toke thingly swee\nThan paid yVolst bettly that Edwardngluted hat my Clanciame\nPalligetion. With itus, as boinshrafly, came\n",
+    "bt out words. My Margord, woued to dend\nWine in that word'st the's more: I gelp,\nI conthere we legings wife, my and conselited,-",
+    " pareif it our dus Rome.\nThy gods frigaon: Clome; mod! we\nplade, my tribe wroath bether\nAs that Noture no, some ajurty neirrad-m",
+    "O&Qleeet?\n\nSAET:\nI ugay yourds, if platieng ation, and thisJ; we you.\n\nVOLUMNIA:\nWheyou, nows, rother discong, 'tis ralader\nAld ",
+    "i\nhumerj, when me again a beaptle;\nAd make an a sthoures ofther.\n\nFirst Senator:\nOuf all he caturs, and to fooly cuntry it. By\nB",
+    " latter.\n\nMussenger:\nAst this, a world, hoie!\n\nMENENIUS:\nLet stand your again.\n\nFirst Lie not, Coriolanus on wius madior, letrac",
+    "s lord, your\nconfuritors, and the world?\nGodUCINILAQuol, CoriolanuLer.\nI'll your teemplie:\nWhich beires he him leat weet of the ",
+    "to grant, with pill'd chims\nInern many are namecition. Wit.\n\nMENENIUS:\nLet A hour my pie that my fancy evenge,\nNot here's love t",
+    "k the bears of lout had me war to efor teols!\nAlme voicesty to moroth.\n\nVOLUMNIFIUS:\nYour waste, follow'st it, and turn win in t",
+    "be dothices that grates for that you:\nThe wouchous bany bore the sI a cofre\nHid; the she wag. Marke I body in you, him,\nAs stogr",
+    " 'etis,\nAnd nobly much I rechom ondug what enighter\nSenat me! Where an age a bingspier acenrmys what\narchips-conter-lik!\n\nSELANF"
+  ],
+  "generation_protocol": {
+    "steps": 128,
+    "strategy": "cached_causal",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.014892578125,
+    "js_1": 0.009605983873030834,
+    "distinct_2": 0.14985236220472442,
+    "js_2": 0.09142557545373,
+    "distinct_3": 0.4615575396825397,
+    "js_3": 0.30962026780879276,
+    "repetition_4": 0.02025000000000001,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  }
+}

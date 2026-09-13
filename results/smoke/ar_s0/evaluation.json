@@ -1,0 +1,45 @@
+{
+  "name": "ar_s0",
+  "kind": "ar",
+  "schedule": "linear",
+  "seed": 0,
+  "steps_trained": 8,
+  "evaluated_at": "2026-09-13T11:54:50+0200",
+  "val": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 5.837227404117584,
+    "se": 0.010842874417953717,
+    "n": 8
+  },
+  "test": {
+    "metric": "exact_chunk_nll_bpc",
+    "mean": 5.829076647758484,
+    "se": 0.01227846178619532,
+    "n": 8
+  },
+  "samples": [
+    ",;AtSHzpbHp;,J!?fYyEhmykC-Aq�kR;",
+    ",dDa?CdY!�lba,,!D?F!krqwq e �q,J",
+    "swYrSknMSjdozjMEPzpI�;l.kuggn!E:",
+    "?N'jkMyvDq!rWfV:wqW.mTN�wWA;FF'P"
+  ],
+  "generation_protocol": {
+    "steps": 32,
+    "strategy": "cached_causal",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.390625,
+    "js_1": 0.3927511120729453,
+    "distinct_2": 0.9758064516129032,
+    "js_2": 0.9581798947237101,
+    "distinct_3": 1.0,
+    "js_3": 0.9995494880335285,
+    "repetition_4": 0.0,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 4,
+    "generated_characters": 128
+  }
+}

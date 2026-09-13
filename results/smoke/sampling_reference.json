@@ -1,0 +1,44 @@
+{
+  "split": "val",
+  "models": {
+    "ar": {
+      "distinct_1": 0.3984375,
+      "js_1": 0.36191798546052545,
+      "distinct_2": 0.967741935483871,
+      "js_2": 0.953995952379291,
+      "distinct_3": 1.0,
+      "js_3": 0.9989118151274372,
+      "repetition_4": 0.0,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 4,
+      "generated_characters": 128
+    },
+    "unigram": {
+      "distinct_1": 0.28125,
+      "js_1": 0.08309154562168675,
+      "distinct_2": 0.8629032258064516,
+      "js_2": 0.6894088473138886,
+      "distinct_3": 1.0,
+      "js_3": 0.9499029927510092,
+      "repetition_4": 0.0,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 4,
+      "generated_characters": 128
+    },
+    "trigram": {
+      "distinct_1": 0.3828125,
+      "js_1": 0.18871079019812528,
+      "distinct_2": 0.9354838709677419,
+      "js_2": 0.7463629357009944,
+      "distinct_3": 0.9916666666666667,
+      "js_3": 0.9099367578124731,
+      "repetition_4": 0.0,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 4,
+      "generated_characters": 128
+    }
+  }
+}

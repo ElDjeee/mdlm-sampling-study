@@ -1,0 +1,62 @@
+{
+  "name": "unweighted_s0",
+  "kind": "unweighted",
+  "schedule": "linear",
+  "seed": 0,
+  "experiment": {
+    "width": 32,
+    "layers": 1,
+    "heads": 4,
+    "length": 32,
+    "batch_size": 4,
+    "train_steps": 8,
+    "learning_rate": 0.001,
+    "diffusion_steps": 8,
+    "train_chars": 10000,
+    "seeds": [
+      0
+    ],
+    "log_every": 4,
+    "eval_windows": 8,
+    "eval_repeats": 1,
+    "sample_count": 4,
+    "timing_repeats": 2,
+    "benchmark_shapes": [
+      [
+        32,
+        1
+      ]
+    ],
+    "sampling_steps": [
+      4,
+      8
+    ]
+  },
+  "history": [
+    {
+      "step": 0,
+      "val_objective": 2.232337713241577,
+      "loss": null
+    },
+    {
+      "step": 4,
+      "loss": 2.362316846847534,
+      "val_objective": 2.2294726371765137,
+      "gradient_norm": 0.706574022769928,
+      "lr": 6.024587491992861e-05
+    },
+    {
+      "step": 8,
+      "loss": 1.884472370147705,
+      "val_objective": 2.2263450622558594,
+      "gradient_norm": 0.5157644152641296,
+      "lr": 3.687170828925446e-05
+    }
+  ],
+  "training_seconds": 0.01278291700873524,
+  "compilation_seconds": [
+    1.1008081249892712
+  ],
+  "parameters": 16634,
+  "tokens_seen": 1024
+}

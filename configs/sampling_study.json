@@ -1,0 +1,20 @@
+{
+  "checkpoints": ["mdlm_s0", "mdlm_s1", "mdlm_s2"],
+  "steps": [4, 8, 16, 32, 64],
+  "replicates": 8,
+  "samples_per_replicate": 64,
+  "length": 128,
+  "sampling_seed": 931047,
+  "bootstrap_seed": 7103,
+  "bootstrap_draws": 10000,
+  "pair_lags": [1, 2, 4, 8, 16],
+  "reference_split": "val",
+  "reference_windows": 400,
+  "primary_metric": "js3",
+  "primary_contrast": [64, 4],
+  "temperature": 1.0,
+  "top_k": 0,
+  "strategy": "ancestral",
+  "schedule": "linear",
+  "status": "Exploratory follow-up selected after the earlier 32-sample sweep; protocol frozen before these fresh generations, not an independent preregistered confirmation."
+}

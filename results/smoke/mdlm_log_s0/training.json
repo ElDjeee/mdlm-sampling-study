@@ -1,0 +1,62 @@
+{
+  "name": "mdlm_log_s0",
+  "kind": "mdlm",
+  "schedule": "log",
+  "seed": 0,
+  "experiment": {
+    "width": 32,
+    "layers": 1,
+    "heads": 4,
+    "length": 32,
+    "batch_size": 4,
+    "train_steps": 8,
+    "learning_rate": 0.001,
+    "diffusion_steps": 8,
+    "train_chars": 10000,
+    "seeds": [
+      0
+    ],
+    "log_every": 4,
+    "eval_windows": 8,
+    "eval_repeats": 1,
+    "sample_count": 4,
+    "timing_repeats": 2,
+    "benchmark_shapes": [
+      [
+        32,
+        1
+      ]
+    ],
+    "sampling_steps": [
+      4,
+      8
+    ]
+  },
+  "history": [
+    {
+      "step": 0,
+      "val_objective": 4.04329776763916,
+      "loss": null
+    },
+    {
+      "step": 4,
+      "loss": 2.972125768661499,
+      "val_objective": 4.03853178024292,
+      "gradient_norm": 0.9757435321807861,
+      "lr": 6.024587491992861e-05
+    },
+    {
+      "step": 8,
+      "loss": 4.102276802062988,
+      "val_objective": 4.033524990081787,
+      "gradient_norm": 1.4218132495880127,
+      "lr": 3.687170828925446e-05
+    }
+  ],
+  "training_seconds": 0.017829500953666866,
+  "compilation_seconds": [
+    1.3109009580221027
+  ],
+  "parameters": 16634,
+  "tokens_seen": 1024
+}

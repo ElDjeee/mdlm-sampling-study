@@ -1,0 +1,46 @@
+{
+  "independent": {
+    "valid_probability": 0.0625,
+    "total_variation": 0.9375,
+    "exact_nll_bits_per_character": 1.0,
+    "min_valid_mode_probability": 0.00390625,
+    "max_valid_mode_probability": 0.00390625
+  },
+  "target": {
+    "valid_probability": 1.0,
+    "total_variation": 0.0,
+    "exact_nll_bits_per_character": 0.5,
+    "min_valid_mode_probability": 0.0625,
+    "max_valid_mode_probability": 0.0625
+  },
+  "oracle": {
+    "4": {
+      "valid_probability": 0.586181640625,
+      "total_variation": 0.413818359375,
+      "exact_nll_bits_per_character": 0.5963225389711979,
+      "min_valid_mode_probability": 0.0366363525390625,
+      "max_valid_mode_probability": 0.0366363525390625
+    },
+    "16": {
+      "valid_probability": 0.8807382583618164,
+      "total_variation": 0.1192617416381836,
+      "exact_nll_bits_per_character": 0.5229018448065624,
+      "min_valid_mode_probability": 0.055046141147613525,
+      "max_valid_mode_probability": 0.055046141147613525
+    },
+    "64": {
+      "valid_probability": 0.9691143073141575,
+      "total_variation": 0.030885692685842514,
+      "exact_nll_bits_per_character": 0.505657656613917,
+      "min_valid_mode_probability": 0.06056964420713484,
+      "max_valid_mode_probability": 0.06056964420713484
+    },
+    "256": {
+      "valid_probability": 0.9922103583958795,
+      "total_variation": 0.007789641604148741,
+      "exact_nll_bits_per_character": 0.5014102595311791,
+      "min_valid_mode_probability": 0.062013147399742466,
+      "max_valid_mode_probability": 0.062013147399742466
+    }
+  }
+}

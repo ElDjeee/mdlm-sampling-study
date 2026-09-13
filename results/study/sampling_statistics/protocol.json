@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "checkpoints": [
+      "mdlm_s0",
+      "mdlm_s1",
+      "mdlm_s2"
+    ],
+    "steps": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "replicates": 8,
+    "samples_per_replicate": 64,
+    "length": 128,
+    "sampling_seed": 931047,
+    "bootstrap_seed": 7103,
+    "bootstrap_draws": 10000,
+    "pair_lags": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "reference_split": "val",
+    "reference_windows": 400,
+    "primary_metric": "js3",
+    "primary_contrast": [
+      64,
+      4
+    ],
+    "temperature": 1.0,
+    "top_k": 0,
+    "strategy": "ancestral",
+    "schedule": "linear",
+    "status": "Exploratory follow-up selected after the earlier 32-sample sweep; protocol frozen before these fresh generations, not an independent preregistered confirmation."
+  },
+  "source_sha256": {
+    "sampling_study.py": "e841883b41ce71160f6054907628925245117bb50e5f7c243338b9112039641f",
+    "nanodiff/sampling_statistics.py": "c11d726a59d4c6591431e57453690e71a96af86e09dd6afa9417a2280449e18c",
+    "nanodiff/diffusion.py": "c3eceee4dc56b12510d0e70236f2d92203c4f2914d4e22a1d8b63052bfb76d91",
+    "nanodiff/model.py": "7bace0df1996bb2a3ebca62572c6343c02857939999fe0e13145fc89b165b587",
+    "nanodiff/training.py": "cf60e7bf686a6f6390ee0118d2ba4359935cb06247952e74bee3c37d4e8cbce3",
+    "nanodiff/data.py": "d8ff77d89673791b39b2144aacb85cc772f048f83917d7f36d8cbb73a70fea53",
+    "configs/sampling_study.json": "dabeb2a26b969a429ab841bffc1ef8d9512b00bfb7cfe8f0aa039c72890188c6"
+  },
+  "checkpoint_sha256": {
+    "mdlm_s0": "e5a38c31c6fe47015b4333cc50d4a883879c3d6a18b581ca71165adc08b2cf53",
+    "mdlm_s1": "02b61b53758890da49819d2e789276e54fea1f66526c96984dfc0ae12a938e32",
+    "mdlm_s2": "ed64748870935837e38140f4e108b0f65bbb562315902f2cf7a91c07cc8671db"
+  },
+  "dataset_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+  "jax_version": "0.4.38",
+  "backend": "cpu"
+}

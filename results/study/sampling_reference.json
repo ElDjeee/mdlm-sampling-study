@@ -1,0 +1,44 @@
+{
+  "split": "val",
+  "models": {
+    "ar": {
+      "distinct_1": 0.014892578125,
+      "js_1": 0.006837532637315567,
+      "distinct_2": 0.15108267716535434,
+      "js_2": 0.08772192754597938,
+      "distinct_3": 0.45163690476190477,
+      "js_3": 0.2991352455018554,
+      "repetition_4": 0.027500000000000007,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 32,
+      "generated_characters": 4096
+    },
+    "unigram": {
+      "distinct_1": 0.013671875,
+      "js_1": 0.008502387831677246,
+      "distinct_2": 0.2623031496062992,
+      "js_2": 0.36844701893812853,
+      "distinct_3": 0.8072916666666666,
+      "js_3": 0.7834274018990321,
+      "repetition_4": 0.0010000000000000009,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 32,
+      "generated_characters": 4096
+    },
+    "trigram": {
+      "distinct_1": 0.015380859375,
+      "js_1": 0.012428877047536932,
+      "distinct_2": 0.21309055118110237,
+      "js_2": 0.1316609746400904,
+      "distinct_3": 0.49603174603174605,
+      "js_3": 0.34363462966769265,
+      "repetition_4": 0.014750000000000013,
+      "exact_copy_fraction": 0.0,
+      "copied_32gram_fraction": 0.0,
+      "sample_count": 32,
+      "generated_characters": 4096
+    }
+  }
+}

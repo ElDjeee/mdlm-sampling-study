@@ -1,0 +1,194 @@
+{
+  "name": "mdlm_s2",
+  "kind": "mdlm",
+  "schedule": "linear",
+  "seed": 2,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T11:58:19+0200",
+  "val": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.9577501751482487,
+    "se": 0.024242418194674955,
+    "n": 64,
+    "repeat_means": [
+      3.9583187103271484,
+      3.957181692123413
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "val_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.3578431308269501,
+      "masked_ce_nats": 2.311920166015625,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.3026506006717682,
+      "masked_ce_nats": 2.440095901489258,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.24589768052101135,
+      "masked_ce_nats": 2.722320556640625,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.19839580357074738,
+      "masked_ce_nats": 2.9844210147857666,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.16711919009685516,
+      "masked_ce_nats": 3.196460008621216,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.15087890625,
+      "masked_ce_nats": 3.344949245452881,
+      "masked_tokens": 8192
+    }
+  ],
+  "test": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.972945913672447,
+    "se": 0.02252580345071133,
+    "n": 64,
+    "repeat_means": [
+      3.9646434783935547,
+      3.981248140335083
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "test_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.3578431308269501,
+      "masked_ce_nats": 2.301933526992798,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.2920481860637665,
+      "masked_ce_nats": 2.491931915283203,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.24203668534755707,
+      "masked_ce_nats": 2.7399003505706787,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.19741365313529968,
+      "masked_ce_nats": 2.970768451690674,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.16291067004203796,
+      "masked_ce_nats": 3.2105679512023926,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.1458740234375,
+      "masked_ce_nats": 3.3686394691467285,
+      "masked_tokens": 8192
+    }
+  ],
+  "samples": [
+    ",dy wtengo h\nOrarC oucane ysocp em e,w of sfmet. setewfo e o ose\n;ris ip Gneif wr acitezi, ar enorS\n,y Ineg rihand I egh tanvisy",
+    "yu emy ect um sign uINSS\n\nCLADI\n,a yre he peoc tlont ofr f-,\nTca,nf didee dod swon emW\nH ai rdelti w ti ha tcous sopool tig fo, ",
+    " starle wo esnn ofpese,\nOdisreticac ,not Fi snof tilrevlae t het\ntkuh a afef fignecO\nTU\n\nC?emascnt amna ertel weaw as tiger tosy",
+    " sitllam ebke ru mH\n!tleir walyuoz kiehaw ret  tore thT\nBowea l' dat yeer; m imou hedof  torr\n echan woe\n.e mriMit mofsp os sIpi",
+    "l baly on hpaggi folkuob \nTh nies uSt eJeladuet!n do huod mourt Is\nWroht I\nSib uroelsI\nFowon?\n\nOenjdaS IUO\nThet cop eliusbemew,\n",
+    "manscenyr noctnilap rsso ti maerva en. deswetoti wines wht ita;lpat siriluh\nSU !surni plyuol.\n\n\n.uosilec'urke!\n\nCmody sa :fod li",
+    "gnam cEan'sa H\nnfaivri hTue tUorer:t I eviiams  fourinteutl l,e oyy\n\n.'leraicIS am uye\nSPesen t'pa es se ht eb,are cnadag nsl,\nt",
+    "r ta dmaesit onceom hsave itnn osdha kgid eh fofnagr tsownoo wo tea sb ony. fEfon foihger ae mg,e yI nokaoy racI s,so beaTt-owti",
+    "ano bi koneh iThrD\n\n.neidt hT\n;ays k.\nNoMNAd\nWhSealr ma fkit hsy d dso hw'm, uoth ist ,ni detirite titpienac\nsiy uoit res timsou",
+    "sgapne vderbe bwif ne BH.rI TS\n\n\naYNIE:OIIOSROS\n\nJRUTC\nAea sde yo,\ngomfe  ed ab uobi ne uo hyerl dnn ou ta itf eyca ywseincuuS\n\n",
+    "d ouy,\nS\nGeporesou mal\nRoS\n\nFoinw hatron oth Heot essA\neor ehat\nFmimine, ,niit BO\n;tht h,\n.kehNo lurb stineht fme af sayu'mer td",
+    "led recha oi are h,ta heirel,\n\nEg peracerb, sn dira vti o sera A: Isah omsit seoprce l;r dh doubrec ta hto rahehT oa rgncbeFh fo",
+    "refo\nUFole: mrudo fte kgeip tmemel k oe pauhrinb ei satas toir\n!.\n:ew enrfateslse  suoureeolert cuown eht wi yrbugetmet\nhsWAtuni",
+    "me  nis ugn irf o wh, duik yde biv ul bouw no las rusa:\nntaeh syogatTde lii hint,\nNi baelI\n  then,too'yecs wih tolh thinovt swk ",
+    " biv thot am: melwetih fllam ris\nVt eb o ieae ow at.\nPhe tsolat tef ra efl meiekot ,enceS\nncusnit uny ta tht I\n,enone  ewro cnta",
+    "t oih ned mape griret itstb ,ydM, atathat st, or,na ewaw ht,\ndetus stihs ihtusle pa tieavre, yaveB,e ki gr'yoras da \nTlepaecnet ",
+    ":ES\n,ak Scot Credipe wk genems onovfde, famt ot h eegr won aretmhT\n\nBer. dof uC\nlof eeeAm sade the eb ino ro thig aNIUE\nda nag .",
+    " bend id siI ptt et tmadne o sb oN, I-oicoub to duouo\nYtocy elto  omo -rdmihe hethedG,uncgiw mle, peulw ec leve atu resnn;e thti",
+    "rc epikeolferw ayyl\ndrien de orsand echohnas hs eevon tatli tI re ehtcril las\n\neemomw saYs\nW.sans hin ypasrdperi tehte ih\nenikno",
+    "oo oy reiep em aen emeres somiht gingesr frof ,sei uqm muov. eereht qiro veap dhic tezy din dsudnuinFchTd\n,ou ohce  ty!\nCA\nse ek",
+    "\n\n?dit nill tdip, y!,o nev\nOs'm atht rier  be;\nmed'afoebnt eh tenveag dn deiud Iene hteKet san koy\nyie it ngon do  p seha ttema\n",
+    "ut\noD\n\nEGMSASLLEane re ctim urtrd eth swoh  ekno\n,rTn,aM't :rodr woeronv\n,hirueW\n?\nSf sahsgoraiis tA\ngeavcoce urm  eht no opnqru",
+    "r elte Sg:R:\n\nYoBc th ess aker ot bet prae nontbee dru,m in taob hesespati selserduen.\nO suns'tw,a at oT\nSIUN:\ntqnuyo UIN\n\nop o.",
+    "'ne gh heh tsohte thihe mh aD\n\nCOarfr: lbeden nf dpadan ari,fof erde.\n\nDIF's ist em'tst osF'\nU\nISOUIVCATh luo sul usi I ciret os",
+    ": weceel aam eht aus of eizeni, il-dl' to cru,\nhT:h:W\n?rercaeh tahe dnwarevtss e,virgieG\n,suo san toc hiw hed potis, beve ,ene\np",
+    "y o tl\nIL:BNEUFATha\n::walo  o naht wooloul, racf o :\nof;nath talwouo denh tsyoirtic\npoul swohnus 'teris o nht , Itgitts fi tiv'e",
+    "d nafn weyrog tehe kur?\n.tpa,\n\nLOUISI o qin ,hn toiu tRneve-\n.voemne dieret otyecu,\nnmad nithT usodn ekotarvele\n,e ht nils mbas ",
+    "adn us I I,es se toub i an op t ottorM .htoapecehiwuhnD.\n\nThe mea,e se eh estarow ;ray,\nrev an uhcoaat touC:--shTsityoL\n.yllo ly",
+    " es Vtat eh,iht\n\nNET gerae e a eret he wik oevin  fabs pioht i ytor wnaa it peind wo on wot len,\n.wenglir gtes naMlnetmelr vard ",
+    " or ocariguw sersset ht tyim guo\nus o ollat to etnand wo enegncA\ni teherabld edtir :faht od taher, ep'roorf dinsge\nebriw yn ,'ra",
+    "a-::ENUT\n\n.puhow iw rpoa , seimvoe eheth ear sp the 'kdr :n: fhoy sA\n,ovaonta spa!rgnou nko ew sat Bif e fidaaPdgo T,\n!Ethaeirnd",
+    "r' lerpab ve?set oinstu  I\nAO\n.eportarWhetth ed yhci, hteb  mmo,tokf t,mo\n:mos eown Yu\nPseyn y sepemoSU\nIe fo eve\nybebluiq v'tro"
+  ],
+  "generation_protocol": {
+    "steps": 16,
+    "strategy": "ancestral",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.01416015625,
+    "js_1": 0.011767674916991159,
+    "distinct_2": 0.21899606299212598,
+    "js_2": 0.23080094298560627,
+    "distinct_3": 0.6812996031746031,
+    "js_3": 0.6053432675089208,
+    "repetition_4": 0.0025000000000000022,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  },
+  "infilling": {
+    "masked_span": [
+      42,
+      85
+    ],
+    "accuracy": 0.09156976744186046,
+    "unchanged_context": true,
+    "reference": "ua.\nDo you hear, sir? To leave frivolous circumstances,\nI pray you, tell Signior Lucentio that his father is\ncome from Pisa, and",
+    "input": "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "output": "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our   oouo  ouo  as ah tor entio that his father is\ncome from Pisa, and",
+    "note": "Exact-match characters in held-out middle third, greedy confidence sampler; not a semantic metric; AR right-context comparison not claimed"
+  },
+  "trajectory": [
+    "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce████████████████████████████████████████ entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  ██████████████████████████████████ ███ entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oo████████████████████████████████ █o█ entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oo█  █████████████████████████████ █o█ entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  o████████████████████████████ to█ entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou ██████████████████████████ tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to████████████████████████ tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  ████████████████████a█ tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  o██████████████████ ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  ou███████████████a█ ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our████████████  a█ ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our█████████o█o  as ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our███████  o█o  as ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our███oo█o  o█o  as ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our   oo█o  o█o  as ah tor entio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce  oot  ou to  our   oouo  ouo  as ah tor entio that his father is\ncome from Pisa, and"
+  ]
+}

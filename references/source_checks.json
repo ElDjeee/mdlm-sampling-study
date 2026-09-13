@@ -1,0 +1,58 @@
+{
+  "static_checks_passed": true,
+  "numerical_validation_performed": false,
+  "scope": "Pinned clean source checkouts and selected static observations only; no network or model execution.",
+  "repositories": [
+    {
+      "repository": "tyuxie/VADD",
+      "commit": "6bd9dded67c3034e6f9a3a77190feb5c92678eaa",
+      "checks": [
+        "Required data config directory absent from tracked files."
+      ],
+      "source_sha256": {
+        "README.md": "2039a1593297ba668da8c82947b5bbe08a05790d13b8e8a4d8cefe71e5a3edfc",
+        "configs/config.yaml": "776589eeb26d37d21c249035cb7b35e26ece8a5c393375b3b4ce9a2ec0c71bc3",
+        "diffusion.py": "8331600c44423c4edbf8dd8b2c622e4ff13c65793223729be25e62290a465a33",
+        "models/dit.py": "715401c3b85a8e967d6218fa9f7c5c6d7af1df64660fea5f8895bfb388b39111",
+        "scripts/train_owt_vadd.sh": "328684c47476ad189420dbd007c5df5afb88cb2becb0836a5aa8bf106997d228",
+        "scripts/eval_owt_vadd.sh": "60e1fd2911c2ca46004886fa8d725252431a1acd104c225eab423a9ebf9a01d4"
+      }
+    },
+    {
+      "repository": "chen-hao-chao/mdm-prime",
+      "commit": "a4a5806a6f5211f1d94b68a12b379de1c3e318fd",
+      "checks": [
+        "Standard branch and OWT config present; no numerical equivalence asserted."
+      ],
+      "source_sha256": {
+        "README.md": "b24d13ce23e8c6aa38706e340875e587db06f3586516ab9ca6668795d9b6205f",
+        "text/README.md": "af9c6dec4ff5cbe4d2b41705481bafe4145e89eba7776ac6be5566622786a49a",
+        "text/diffusion.py": "0c6bd6f1a3ca770ef025103ac007e18d08aa8e7249349345fc10a7f62a534937",
+        "text/configs/config.yaml": "a04dbd7581039dfcc49c55b136ab9ad6f86e4ea48ed9104372bc43cf87693d32",
+        "text/configs/data/openwebtext-split.yaml": "b12e019d5cd6d86c7c529e62d08c93746f636e57aa67a5afe542def9b58104c5",
+        "text/assets/curves.png": "936c63fbe41591ef2c734faaa28d974a7bfa505ec070285f96dbb9a484c0302d"
+      }
+    },
+    {
+      "repository": "chunsanHong/LoMDM",
+      "commit": "fa6fb0f3fc63321558ee9b7c736fa6014de50834",
+      "checks": [],
+      "source_sha256": {
+        "README.md": "35da0c08f9243f26ab329b808c82112ca1b702e5927f8c5292964168cd488436",
+        "scripts/train_owt_mdlm.sh": "17a93ae408798a5ce1ec1f325954daba52729b586351acaa07d3f63b40439d3e",
+        "scripts/zero_shot_eval_mdlm_example.sh": "dd2bc04773b1c68166b3b78fdc4a5b6b012857bf191743ed7be2e4fa3475c364"
+      }
+    },
+    {
+      "repository": "nathanrs/tiny-diffusion",
+      "commit": "667853bc829192637ef932692f32aa82b6f09b5a",
+      "checks": [
+        "Masked-count loss normalization found."
+      ],
+      "source_sha256": {
+        "README.md": "de1b092d30402516ac2bf41e9440a459000ee625a66929f3d76c13a6bf34d939",
+        "diffusion.py": "5e7f90be7c0a9a00c833941f9dc514a06cd66ab6ad4c65514dcf4e44922ea54b"
+      }
+    }
+  ]
+}

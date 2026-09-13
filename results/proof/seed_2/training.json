@@ -1,0 +1,92 @@
+{
+  "seed": 2,
+  "config": {
+    "pairs": 4,
+    "width": 64,
+    "layers": 2,
+    "heads": 4,
+    "position_scale": 1.0,
+    "local_bias": false,
+    "train_steps": 2000,
+    "batch_size": 64,
+    "learning_rate": 0.003,
+    "diffusion_steps": 64,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "checkpoints": [
+      0,
+      200,
+      500,
+      1000,
+      2000
+    ],
+    "sampling_steps": [
+      4,
+      16,
+      64,
+      256
+    ],
+    "sample_count": 4096,
+    "sample_batch": 256,
+    "acceptance": {
+      "valid_probability_min": 0.9,
+      "total_variation_max": 0.1,
+      "exact_nll_bits_per_character_max": 0.56,
+      "min_valid_mode_probability_min": 0.025,
+      "empirical_vs_exact_tv_max": 0.06
+    },
+    "scope": "Controlled demonstration of joint-distribution learning and ancestral sampler correctness. Not a paper reproduction or language benchmark. Thresholds fixed before these runs."
+  },
+  "history": [
+    {
+      "step": 0,
+      "loss": null,
+      "valid_probability": 0.06251366977256088,
+      "total_variation": 0.9374863302274387,
+      "exact_nll_bits_per_character": 1.0037302739628802,
+      "min_valid_mode_probability": 0.0024588741432920646,
+      "max_valid_mode_probability": 0.005503624906092445
+    },
+    {
+      "step": 200,
+      "loss": 0.3796139061450958,
+      "valid_probability": 0.9618479153285808,
+      "total_variation": 0.06488011451252741,
+      "exact_nll_bits_per_character": 0.5079330141746451,
+      "min_valid_mode_probability": 0.05159889091582459,
+      "max_valid_mode_probability": 0.07278923005322728
+    },
+    {
+      "step": 500,
+      "loss": 0.2866451144218445,
+      "valid_probability": 0.9668293324234452,
+      "total_variation": 0.03317066757655446,
+      "exact_nll_bits_per_character": 0.5061093265914424,
+      "min_valid_mode_probability": 0.05873901436821815,
+      "max_valid_mode_probability": 0.062414670423710815
+    },
+    {
+      "step": 1000,
+      "loss": 0.38262104988098145,
+      "valid_probability": 0.9679725224848987,
+      "total_variation": 0.03300877161805715,
+      "exact_nll_bits_per_character": 0.5059197689739524,
+      "min_valid_mode_probability": 0.05779579197443042,
+      "max_valid_mode_probability": 0.06348129410295657
+    },
+    {
+      "step": 2000,
+      "loss": 0.33408352732658386,
+      "valid_probability": 0.9686510641723776,
+      "total_variation": 0.03134893582762212,
+      "exact_nll_bits_per_character": 0.5057468725771869,
+      "min_valid_mode_probability": 0.06004682634999307,
+      "max_valid_mode_probability": 0.06110423955235121
+    }
+  ],
+  "train_seconds": 14.908759791229386,
+  "compile_and_first_step_seconds": 0.89923979100422
+}

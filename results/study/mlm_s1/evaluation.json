@@ -1,0 +1,194 @@
+{
+  "name": "mlm_s1",
+  "kind": "mlm",
+  "schedule": "linear",
+  "seed": 1,
+  "steps_trained": 1200,
+  "evaluated_at": "2026-09-13T12:02:17+0200",
+  "val": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.975132890045643,
+    "se": 0.025062087162880057,
+    "n": 64,
+    "repeat_means": [
+      3.9751434326171875,
+      3.9751224517822266
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "val_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.4019607901573181,
+      "masked_ce_nats": 2.178284168243408,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.324337363243103,
+      "masked_ce_nats": 2.373411178588867,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.24879343807697296,
+      "masked_ce_nats": 2.7413642406463623,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.16631199419498444,
+      "masked_ce_nats": 3.0992040634155273,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.11756720393896103,
+      "masked_ce_nats": 3.315326452255249,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.088134765625,
+      "masked_ce_nats": 3.405465841293335,
+      "masked_tokens": 8192
+    }
+  ],
+  "test": {
+    "metric": "finite_chain_nelbo_bpc_mc",
+    "mean": 3.984172437340021,
+    "se": 0.024269040219822475,
+    "n": 64,
+    "repeat_means": [
+      3.9715805053710938,
+      3.9967641830444336
+    ],
+    "steps": 64,
+    "repeats": 2,
+    "note": "Monte Carlo estimate of an upper bound on NLL; SE across windows; not exact perplexity or confidence-heuristic likelihood"
+  },
+  "test_reconstruction": [
+    {
+      "mask_rate": 0.1,
+      "accuracy": 0.41299018263816833,
+      "masked_ce_nats": 2.1233110427856445,
+      "masked_tokens": 816
+    },
+    {
+      "mask_rate": 0.25,
+      "accuracy": 0.324337363243103,
+      "masked_ce_nats": 2.4223673343658447,
+      "masked_tokens": 2075
+    },
+    {
+      "mask_rate": 0.5,
+      "accuracy": 0.23527991771697998,
+      "masked_ce_nats": 2.7823562622070312,
+      "masked_tokens": 4144
+    },
+    {
+      "mask_rate": 0.75,
+      "accuracy": 0.16729415953159332,
+      "masked_ce_nats": 3.0980756282806396,
+      "masked_tokens": 6109
+    },
+    {
+      "mask_rate": 0.9,
+      "accuracy": 0.1194678246974945,
+      "masked_ce_nats": 3.3232319355010986,
+      "masked_tokens": 7366
+    },
+    {
+      "mask_rate": 1.0,
+      "accuracy": 0.0870361328125,
+      "masked_ce_nats": 3.422179698944092,
+      "masked_tokens": 8192
+    }
+  ],
+  "samples": [
+    " uor to theon ton ot ot on a tho  ot eone rot oon:I\n:eo Io  enro you oy ourro to ot   eh trem ot dnoon \n.:ICIICIISIC\n\nCo ouroo o",
+    "on o thot ,nod son son, ton: b ouo yoy o nort th oot a fond oht hte ton tho uot  ot a h:\nIceso heoneo don on rous conor arse fo ",
+    "ronWre evtor to dno tont o oner of o tot  to teht to rou tot ,toh te onh sont ;ano uoth to ,eno dnouer o thone -o not ot heseht ",
+    "ou yo me thet nouo o nour ertoh ero evou rot ehht\nto oou hove yooud I ore tone eno  teno ta ot ero not sruo on oy ofo\nRILIo  tho",
+    "oond :erac i to dnoond ot no ot lon ,uog ot oht not tono ht ouro eh ot ,roone,\nruoy to  he oyr fono uoy I sond I\n\nII\n.on ton I o",
+    "onone he be  tot nove her yor to t you reond\nWnem ot dnof  Ie onoc trou tht on o theh ot hem A\nII IoIC\n:\n.reno no  omouy yo meo ",
+    "of to ot dno no to i tone onor a th ot hevere be noo nonot  e tnono uor th ot ooy I eeuo ruor srou yoy ot ore::\nSIIIINIC\n\n:nohro",
+    " ou yoy thes toh to  onevoy huoon  tbo\n::CISIICIICIIS\n\n bo  fot t ot nouh tt o ot ti thot ,ed Voone eov.\n\nI IIC\n:enos to to eht ",
+    " tond ton io nont ton a yor noo  toy  one no:\nICI\n:oARNIISS:\n:CII\nIh to eruo oono th oy ero    tonot how A\n\nCIIIC\n:ro tot  ot on",
+    "on nooour bst I e.\nIII e suor to H ot our tot nour uoono  ot ot senot on  tore tot a oret reatho ta !o.\nICIIC\n.e ono noy be ot o",
+    "onor to eht  onor to   tonoo  oRr\nerou won \n:IILIIICIn:\nHo aerou yoo ot   ton oo t a on oered a rouon.\n\nFot ehs tor toh rot I .o",
+    " not  or thot I ees ot ao noe t noonon i seh denop ton ehT\noe to trou henog tnot  ton, thhe dnod to uoond tone ot of to seo ICI\n",
+    "no, tond eb et ort oner thon tonno a not eh\nto thon ot  ton  ionon\nses ounond to th throt yrou ore conon eruo enou to to.\nI:UCII",
+    " ton toon too to ot I on'en oot   ot hot eer oht ot ton tor eh ton duo to ton\nWhet hot a tn orenou o yol oto  ton tho eho t.\nnou",
+    " yoy erof enou ot tok heher ehot  I, oo ne th thot tor ton tones o not the ton oon t ot onond mo \nIe yoc henos  on thot th\n:ICI:",
+    " or tonou I oy yoy uore oy yoy o  is tone:\nSI\n:no ,uoy lon I toh t oy ront hot  onon ton onoon ot noond ot not\n toh tho   oc non",
+    "nof to toy eronou oht ,ernooo yo hecon.\nO ehther a ouon ot not to  oto ti ton t donoc tone etro\nICIICC::IRICIICI\n  ost uo  yoy o",
+    " oon ti th eron ort oont eo hruo ot ton to reero i so uor to t o\nIIICU\n.ero  ot  yourt  toou os, re\ncon sem ot the tones ot I on",
+    "oon  otno he noonnoot  I od tont  rot tore eotn, tho e son oou erier hes,khon pBe be roned her ouon eno.\n\n Ie noy oum  oc he.\nIR",
+    " on I it it hou ot hot ;ene no ton you ot \nWenrnae ot ton ot  to th tno ot o ont ore, yof  thuo trou oy ou\nISCINICICI\n\nI hoy roo",
+    "o, I dnou nono to t of thto rerot a dof tore heht oot  tos totnoC\n\nIC\n.to trou ton rot ot ot con eroy footr ouRI:\n.or  oruo ht h",
+    " ton  ihtt hot tot fo   I erde yoy uonous of I ,eruo tow you eons oyl ehon ot to enoh to not  toh tot thee\n,nou oy ton for dno t",
+    " non eht ton to tnog theh oure ot  ot I\nI\n\nI\n.outr our dno  tehh  ono thet tor he oht ot  ontes ot em eno.\n:ICICILI\nI sol em to ",
+    "ou rot  I tht ot not  tot  ones tof onore ev.\nCSIII:::\nICIIC\nereno  to tt one I oor heh evor eruor uoooC\n\nHr noerb foy uore noy ",
+    "on toy uoou are to epro thot  to  tooon i dnon i ht onoon tihe roI\n\n?.eresh onro  to eoo tht oto   of rout we\nSIUIIC\n:or esh ot ",
+    "noone tonep ot  ot nouo reh te rot noone ser teh.\nTo uon an olt ho tt our to yor tte ot o nofond t ond ,rore yor to. uoon se,dnA",
+    " ton, ton toh tonit tot   on fore ro you roy e,\n.II  mou orhe you yoont da tont tuoo  thot rou ponouroC\n\n.en ona toy yon eh to t",
+    "ou yo I dno thone tot  ihtt to Con o toht ao  teh to  ot hi  noht  touoo eyo tno to oo to th om ton yon ..\n\nSICIIICICICI:S\n.oo o",
+    "ot  ehahe to  tous on aruo th ot roy toht no  toy tond tos I  I on tot  ito  tho  torre oy uor:\nIICIUS more fo.\nI\nA toc to dnoj ",
+    "one tom dno  ot ot snoht ih toy oure oves don, I oot ton.S\n\n\n:ILICI\n. oo yuort eroy yoy no  thuo uoont a?\n\nSICICIIC\nI\n.orer th t",
+    "t on tone to   to yot seer toht  tof otere echt no e ton to t rous,\nWuor ot tor thot  to to  oht outo \n\nCIICNICIICNII: o,.\nez ou",
+    "onop ednod  thot on to not dro I tod oht sot toht  tor tro berhe:\nId snour tor to  ome ols to trono fon  ien or toW\n trone soo s"
+  ],
+  "generation_protocol": {
+    "steps": 16,
+    "strategy": "confidence",
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "generation": {
+    "distinct_1": 0.011962890625,
+    "js_1": 0.1608555797734998,
+    "distinct_2": 0.08513779527559055,
+    "js_2": 0.4261148102683836,
+    "distinct_3": 0.25967261904761907,
+    "js_3": 0.6724315782959178,
+    "repetition_4": 0.07849999999999999,
+    "exact_copy_fraction": 0.0,
+    "copied_32gram_fraction": 0.0,
+    "sample_count": 32,
+    "generated_characters": 4096
+  },
+  "infilling": {
+    "masked_span": [
+      42,
+      85
+    ],
+    "accuracy": 0.04869186046511628,
+    "unchanged_context": true,
+    "reference": "ua.\nDo you hear, sir? To leave frivolous circumstances,\nI pray you, tell Signior Lucentio that his father is\ncome from Pisa, and",
+    "input": "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "output": "ua.\nDo you hear, sir? To leave frivolous ceh tot  foy uo.\n\nICICIICIIII:\n:SUS:\nSenoy  ntio that his father is\ncome from Pisa, and",
+    "note": "Exact-match characters in held-out middle third, greedy confidence sampler; not a semantic metric; AR right-context comparison not claimed"
+  },
+  "trajectory": [
+    "ua.\nDo you hear, sir? To leave frivolous c███████████████████████████████████████████ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce████████████████████████████████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ ██████████████████II██████████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o██████████████I█II█I████████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o██████████████ICIICI████████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o██████████████ICIICIIII█████████████  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o████o█████████ICIICIIII█\n█████████o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o████o█████████ICIICIIII:\n:████████o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o████o█ █████I█ICIICIIII:\n:S███████o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o█  █o█ █████I█ICIICIIII:\n:SU██████o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o█  █o█ █o███I█ICIICIIII:\n:SUS█████o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o█  █o█ █o█\n\nI█ICIICIIII:\n:SUS█\n███o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █o█  █o█ █o.\n\nICICIICIIII:\n:SUS:\n███o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ █ot  █o█ █o.\n\nICICIICIIII:\n:SUS:\n█e█o█  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ce█ tot  █o█ █o.\n\nICICIICIIII:\n:SUS:\nSe█oy  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceh tot  █oy █o.\n\nICICIICIIII:\n:SUS:\nSenoy  ntio that his father is\ncome from Pisa, and",
+    "ua.\nDo you hear, sir? To leave frivolous ceh tot  foy uo.\n\nICICIICIIII:\n:SUS:\nSenoy  ntio that his father is\ncome from Pisa, and"
+  ]
+}

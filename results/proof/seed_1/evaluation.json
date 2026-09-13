@@ -1,0 +1,80 @@
+{
+  "seed": 1,
+  "parameters": 100546,
+  "metrics": {
+    "valid_probability": 0.9686496077258586,
+    "total_variation": 0.035953412764026346,
+    "exact_nll_bits_per_character": 0.5058875706244916,
+    "min_valid_mode_probability": 0.055656446099405364,
+    "max_valid_mode_probability": 0.06514353114835801
+  },
+  "acceptance": {
+    "valid_probability": true,
+    "total_variation": true,
+    "exact_nll": true,
+    "all_modes_noncollapsed": true,
+    "sampler_agrees_with_exact_chain": true
+  },
+  "all_passed": true,
+  "step_curve": {
+    "4": {
+      "valid_probability": 0.586064787160834,
+      "total_variation": 0.4139352128391664,
+      "exact_nll_bits_per_character": 0.5965371623965835,
+      "min_valid_mode_probability": 0.0333877054290729,
+      "max_valid_mode_probability": 0.039827018891418715
+    },
+    "16": {
+      "valid_probability": 0.8803610996720987,
+      "total_variation": 0.11963890032790177,
+      "exact_nll_bits_per_character": 0.523128565324928,
+      "min_valid_mode_probability": 0.05050636833359089,
+      "max_valid_mode_probability": 0.059318627722648024
+    },
+    "64": {
+      "valid_probability": 0.9686496077258586,
+      "total_variation": 0.035953412764026346,
+      "exact_nll_bits_per_character": 0.5058875706244916,
+      "min_valid_mode_probability": 0.055656446099405364,
+      "max_valid_mode_probability": 0.06514353114835801
+    },
+    "256": {
+      "valid_probability": 0.9917221914753742,
+      "total_variation": 0.02035436090005334,
+      "exact_nll_bits_per_character": 0.5016409770548107,
+      "min_valid_mode_probability": 0.05700322227600386,
+      "max_valid_mode_probability": 0.06666435803176989
+    }
+  },
+  "conditionals": {
+    "determined_mask_accuracy": 1.0,
+    "ambiguous_mean_absolute_error_from_half": 0.0102551595184267,
+    "note": "Exhaustive consistent noisy states, uniformly weighted; not unseen modes or language generalization"
+  },
+  "sampler_check": {
+    "count": 4096,
+    "empirical_vs_exact_tv": 0.038933882097800854,
+    "empirical_valid_fraction": 0.9638671875,
+    "observed_valid_modes": 16,
+    "first_16_samples": [
+      "00000000",
+      "00000010",
+      "01110111",
+      "10111011",
+      "01010101",
+      "11011101",
+      "11001100",
+      "10001000",
+      "10011001",
+      "00100010",
+      "00110011",
+      "11001100",
+      "00110011",
+      "10111011",
+      "01100110",
+      "10011001"
+    ]
+  },
+  "train_seconds": 15.428727780468762,
+  "compile_and_first_step_seconds": 0.8673762920079753
+}

@@ -1,0 +1,76 @@
+{
+  "checked_on": "2026-09-13",
+  "scope": "Revue documentaire, inspection statique de quatre dépôts et métadonnées publiques ; aucun entraînement, checkpoint tiers ou résultat numérique tiers exécuté localement.",
+  "complete_validation_chain": false,
+  "external_checkpoint_executed": false,
+  "selected_literature_reference": "VADD / baseline MDLM, tableau 8",
+  "candidate_for_future_code_comparison": "MDM-Prime / branche MDLM standard, prime.target_length=1 ; non certifiée",
+  "repositories": [
+    {
+      "id": "tyuxie/VADD",
+      "commit": "6bd9dded67c3034e6f9a3a77190feb5c92678eaa",
+      "paper": "https://arxiv.org/html/2505.17384v2",
+      "paper_results": {"dataset": "OpenWebText", "reported_mdlm_ppl": 23.21, "independently_reported_mdlm_ppl": 23.07, "table": 8},
+      "observations": [
+        "Équipe distincte des auteurs MDLM ; dépôt dérivé de MDLM/SEDD, pas une réécriture indépendante de chaque composant.",
+        "configs/config.yaml référence /data: openwebtext-split ; aucun répertoire configs/data suivi par Git.",
+        "Seuls scripts/train_owt_vadd.sh et scripts/eval_owt_vadd.sh sont fournis ; pas de script dédié à la baseline MDLM du tableau 8.",
+        "diffusion.py construit GenDIT et InferDIT ; _compute_loss appelle _wrapped_vae_loss ; la présence de loss_type ne fournit pas une branche MDLM vérifiée.",
+        "Pas de checkpoints ou logs numériques suivis par Git ; aucun téléchargement de poids trouvé dans le README ; API releases vide lors de la consultation.",
+        "Aucune référence Shakespeare dans les fichiers suivis inspectés."
+      ],
+      "issue": "https://github.com/tyuxie/VADD/issues/1",
+      "issue_observed": "Ouverte, sans commentaire ; signale également l'absence de configs/data."
+    },
+    {
+      "id": "chen-hao-chao/mdm-prime",
+      "commit": "a4a5806a6f5211f1d94b68a12b379de1c3e318fd",
+      "observations": [
+        "text/configs/data/openwebtext-split.yaml présent ; scripts de commande MDLM dans text/README.md.",
+        "Branche standard target_length=1 distincte de la branche Prime : SUBS, suppression de MASK en sortie, conservation des tokens visibles, poids temporel et normalisation par tokens valides inspectés statiquement.",
+        "text/assets/curves.png inspecté : courbes tierces train et validation jusqu'à un million de pas ; pas de données numériques extraites du PNG.",
+        "Projet W&B annoncé : https://wandb.ai/lance_chao/owt-runs ; séries brutes non récupérées et association run/checkpoint non vérifiée.",
+        "Lien README results_mdm_owt_reproduce en erreur 404 ; un artefact au nom proche avec l1 existe dans l'inventaire HF. Son identité avec le run du graphique reste à vérifier.",
+        "Aucune expérience Tiny Shakespeare identifiée ; le dépôt comporte d'autres expériences toy et image, qui ne correspondent pas à notre test de copie binaire.",
+        "Erratum consulté : les anciennes perplexités Prime et les conclusions de scaling ne sont pas utilisables ; ne pas assimiler ces variantes à MDLM standard."
+      ],
+      "erratum": "https://chen-hao-chao.github.io/dependency-breaks-validity/",
+      "checkpoint_metadata": {
+        "repo_id": "chen-hao-chao/mdm-prime",
+        "revision": "9facb1b46ef132dccbd5f46a7ec987fe399e140a",
+        "filename": "text/owt/results_mdm_l1_owt_reproduce/checkpoint.ckpt",
+        "size_bytes": 2715966360,
+        "sha256_advertised_by_hub_not_locally_verified": "798167804261cb133b339d59d0038e703f3ceb713adb122abd11e7cb7f48261d",
+        "downloaded": false,
+        "loaded": false,
+        "caution": "La fiche HF globale déclare kuleshov-group/mdlm-owt comme base_model ; elle ne suffit pas à établir la provenance de ce checkpoint particulier."
+      }
+    },
+    {
+      "id": "chunsanHong/LoMDM",
+      "commit": "fa6fb0f3fc63321558ee9b7c736fa6014de50834",
+      "observations": [
+        "Scripts MDLM OWT/LM1B présents ; train_owt_mdlm.sh vise huit GPU.",
+        "README : seul le script OWT a été revérifié de bout en bout après refactorisation.",
+        "Les exemples d'évaluation demandent un checkpoint utilisateur ; aucun lien de poids ou de logs chiffrés identifié dans le README.",
+        "Aucun pont Tiny Shakespeare identifié."
+      ]
+    },
+    {
+      "id": "nathanrs/tiny-diffusion",
+      "commit": "667853bc829192637ef932692f32aa82b6f09b5a",
+      "observations": [
+        "Tiny Shakespeare et comparaison AR ; poids annoncés dans les releases, non chargés ici.",
+        "diffusion.py:71-75 tire un taux de masque par séquence ; lignes 225-228 normalisent la CE par le nombre total de positions masquées du batch, sans poids inverse par séquence.",
+        "Cet objectif n'est pas l'estimateur MDLM pondéré utilisé ici : leurs courbes de loss ne sont pas directement comparables.",
+        "Pas de reproduction OWT/LM1B identifiée."
+      ]
+    }
+  ],
+  "other_source": {
+    "url": "https://huggingface.co/ashishk1331/MDLM-TinyShakespeare",
+    "review_depth": "Fiche et inventaire uniquement, notebook non audité et poids non chargés.",
+    "finding": "Démo Tiny Shakespeare avec poids et notebook ; champs de fiche incomplets, aucune validation sur benchmarks originaux identifiée."
+  },
+  "claim_limit": "Ces observations ne constituent ni une revue exhaustive de toutes les reproductions, ni une validation numérique de notre JAX par un tiers."
+}
